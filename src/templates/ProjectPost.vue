@@ -12,9 +12,9 @@
             <div class="categories-container">
               <div class="categories">
                 <span class="label">Categories</span>
-                <span 
+                <span
                   class="category"
-                  v-for="(category, index) in $page.post.categories" 
+                  v-for="(category, index) in $page.post.categories"
                   :key="index"
                   v-text="category"
                 />
@@ -72,6 +72,11 @@ export default {
 .project-header {
   padding: 20vh 0 4rem 0;
 }
+
+.credits-container{
+    margin-top: 1rem;
+}
+
 .project-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
@@ -95,10 +100,25 @@ export default {
   content: '';
 }
 .content {
-  background-color: red;
+
 }
 .content >>> p {
-    max-width: 15rem;
+    max-width: 30rem;
+}
+
+.content >>> img {
+    min-width: calc(100vw - 4rem);
+}
+
+@media (min-width: 860px) {
+    .content >>> img {
+        min-width: calc(100vw - 12rem);
+    }
+}
+@media (min-width: 1200px) {
+    .content >>> img {
+        min-width: calc(1200px - 12rem);
+    }
 }
 </style>
 
