@@ -4,7 +4,7 @@
  * @author Lea Verou
  */
 
-@import "~circular-std";
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
 code[class*="language-"],
 pre[class*="language-"] {

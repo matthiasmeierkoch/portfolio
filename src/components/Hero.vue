@@ -43,4 +43,10 @@ export default {
     margin: 0;
     opacity: 0.6;
 }
+
+@media (max-width: 920px) {
+    .hero {
+        max-width: 100%;
+    }
+}
 </style>

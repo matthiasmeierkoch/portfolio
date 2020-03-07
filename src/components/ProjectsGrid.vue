@@ -35,7 +35,7 @@ export default {
 }
 .project {
   grid-column: auto / span 2;
-  text-align: center;
+  text-align: left;
 }
 .project-link {
   text-decoration: none;
@@ -49,7 +49,7 @@ export default {
 .project-title {
   font-size: 1rem;
   color: var(--color-contrast);
-  margin: 2rem 0 1rem 0;
+  margin: 1.5rem 0 1rem 0;
 }
 .categories {
   font-size: 0.8rem;
