@@ -103,11 +103,14 @@ export default {
 
 }
 .content >>> p {
-    max-width: 30rem;
+    max-width: 36rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .content >>> img {
     min-width: calc(100vw - 4rem);
+
 }
 
 @media (min-width: 860px) {

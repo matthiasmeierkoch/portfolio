@@ -20,7 +20,7 @@ export default {
     text-align: left;
     max-width: 1200px;
     max-width: 70%;
-    padding: 4rem 0 8rem 0;
+    padding: 4rem 0 4rem 0;
     line-height: 3.6rem;
 }
 

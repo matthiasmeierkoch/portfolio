@@ -1,12 +1,15 @@
 ---
-thumbnail: "/uploads/ian-dooley-281897-unsplash.jpg"
-title: Ice Cream
+thumbnail: "/uploads/Bocado.png"
+title: Bocado
 date: 2019-01-04
 categories:
-- photography
-- yellow
+- UX Design
+- UI Design
+- Human Centered Design
+- Schulprojekt
+credits: Pascale Anderegg, Nicole Watrinet, Marc Hatt
 project_bg_color: ''
-project_fg_color: "#FDC70D"
+project_fg_color: ""
 
 ---
-![](/uploads/ian-dooley-281897-unsplash.jpg)
+![](/uploads/Bocado.png)

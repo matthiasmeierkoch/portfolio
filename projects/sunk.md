@@ -1,12 +1,15 @@
 ---
-thumbnail: "/uploads/cody-davis-253925-unsplash.jpg"
-title: Pineapple
+thumbnail: "/uploads/Liam.png"
+title: Liam
 date: 2019-02-06
 categories:
-- photography
-- blue
-project_bg_color: "#EDEDED"
-project_fg_color: "#36B5EF"
+- UI Design
+- UX Design
+- Didaktisches Design
+- Schulprojekt
+credits: Pascale Anderegg, Severin Kilchhofer
+project_bg_color: ""
+project_fg_color: ""
 
 ---
 ![](/uploads/cody-davis-253925-unsplash.jpg)
