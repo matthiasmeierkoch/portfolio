@@ -26,9 +26,11 @@ export default {
 
 .hero-title {
     font-size: 3rem;
-    font-weight: 600;
     padding: 0;
     margin: 0 0 2rem 0;
+    font-family: calluna, serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .hero-title p,
 .hero-subtitle p {

@@ -1,6 +1,6 @@
 export default [
   {
-    path: "/projects/sunk/",
+    path: "/projects/zuerchertierschutz/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
@@ -8,7 +8,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
-    path: "/projects/ios-concept/",
+    path: "/projects/liam/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
@@ -16,20 +16,20 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
-    path: "/projects/chelsea-landmark/",
-    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
-  },
-  {
     path: "/journal/gridsome-forestry-cms/",
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
-    path: "/journal/a-journal-entry/",
-    component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/JournalPost.vue")
+    path: "/projects/bocado/",
+    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/projects/3d-graff/",
+    path: "/projects/accou/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
+  },
+  {
+    path: "/journal/a-journal-entry/",
+    component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
     path: "/journal/",

@@ -35,6 +35,9 @@ export default {
     height: 6rem;
     z-index: 10;
     background-color: #ffffff;
+    font-family: titling-gothic-fb,sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .header.sticky {
     position: fixed;

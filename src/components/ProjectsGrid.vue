@@ -32,6 +32,9 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
+    font-family: titling-gothic-fb,sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .project {
   grid-column: auto / span 2;
@@ -50,6 +53,9 @@ export default {
   font-size: 1rem;
   color: var(--color-contrast);
   margin: 1.5rem 0 1rem 0;
+    font-family: titling-gothic-fb,sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 .categories {
   font-size: 0.8rem;

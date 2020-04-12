@@ -4,13 +4,15 @@
  * @author Lea Verou
  */
 
-@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url("https://use.typekit.net/kyh3mvv.css");
+
+
 
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
 	background: none;
-	font-family: CircularStd,Space Mono,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+	font-family: titling-gothic-fb, sans-serif;
     font-size: 0.9rem;
 	text-align: left;
 	white-space: pre;

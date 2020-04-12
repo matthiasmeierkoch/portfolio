@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "Portfolio",
   "private": true,
   "scripts": {
     "build": "gridsome build",
