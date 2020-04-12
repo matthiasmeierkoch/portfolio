@@ -81,5 +81,6 @@ img {
   display: block;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
 }
 </style>

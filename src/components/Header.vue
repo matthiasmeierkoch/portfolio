@@ -35,8 +35,9 @@ export default {
     height: 6rem;
     z-index: 10;
     background-color: #ffffff;
-    font-family: titling-gothic-fb,sans-serif;
+    font-family: bilo, sans-serif;
     font-weight: 400;
+    font-size: 1rem;
     font-style: normal;
 }
 .header.sticky {
@@ -65,7 +66,7 @@ export default {
     text-transform: uppercase;   
 }
 .nav > * {
-    font-size: 0.9rem;
+    font-size: 1.25rem;
     font-weight: 600;
     text-decoration: none;
     margin-top: 4px;

@@ -8,6 +8,7 @@ categories:
 - Human Centered Design
 - Schulprojekt
 credits: Pascale Anderegg, Nicole Watrinet, Marc Hatt
+Projektart: Schulprojekt
 project_bg_color: ''
 project_fg_color: ""
 

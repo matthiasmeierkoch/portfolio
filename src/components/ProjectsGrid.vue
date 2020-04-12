@@ -32,7 +32,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
-    font-family: titling-gothic-fb,sans-serif;
+    font-family: bilo, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -50,11 +50,11 @@ export default {
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
 }
 .project-title {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: var(--color-contrast);
   margin: 1.5rem 0 1rem 0;
-    font-family: titling-gothic-fb,sans-serif;
-    font-weight: 700;
+    font-family: bilo, sans-serif;
+    font-weight: 600;
     font-style: normal;
 }
 .categories {
