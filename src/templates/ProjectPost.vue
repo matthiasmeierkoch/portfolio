@@ -79,7 +79,7 @@
 
     .container {
         max-width: 840px;
-        font-family: bilo, sans-serif;
+        font-family: sofia-pro, sans-serif;
     }
 
     .project-header {
@@ -87,7 +87,6 @@
     }
 
     .credits-container {
-        margin-top: 1rem;
     }
 
     .project-title {

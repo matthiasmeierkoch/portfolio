@@ -9,8 +9,7 @@ categories:
 - UX Design
 - UI Design
 - Inhaltsarchitektur
-- Schulprojekt
-
+Projektart: Schulprojekt
 project_bg_color: ''
 project_fg_color: ''
 

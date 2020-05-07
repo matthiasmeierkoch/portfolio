@@ -35,7 +35,7 @@ export default {
     height: 6rem;
     z-index: 10;
     background-color: #ffffff;
-    font-family: bilo, sans-serif;
+    font-family: sofia-pro, sans-serif;
     font-weight: 400;
     font-size: 1rem;
     font-style: normal;

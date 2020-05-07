@@ -6,7 +6,6 @@ categories:
 - UX Design
 - UI Design
 - Human Centered Design
-- Schulprojekt
 credits: Pascale Anderegg, Nicole Watrinet, Marc Hatt
 Projektart: Schulprojekt
 project_bg_color: ''

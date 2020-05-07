@@ -32,7 +32,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 4rem;
-    font-family: bilo, sans-serif;
+    font-family: sofia-pro, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -53,8 +53,8 @@ export default {
   font-size: 1.25rem;
   color: var(--color-contrast);
   margin: 1.5rem 0 1rem 0;
-    font-family: bilo, sans-serif;
-    font-weight: 600;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 700;
     font-style: normal;
 }
 .categories {
