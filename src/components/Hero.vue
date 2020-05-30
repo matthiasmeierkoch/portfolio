@@ -19,13 +19,13 @@ export default {
 .hero {
     text-align: left;
     max-width: 1200px;
-    max-width: 70%;
+    max-width: 100%;
     padding: 4rem 0 4rem 0;
-    line-height: 3.6rem;
+    line-height: 4.2rem;
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding: 0;
     margin: 0 0 2rem 0;
     font-family: calluna, serif;
