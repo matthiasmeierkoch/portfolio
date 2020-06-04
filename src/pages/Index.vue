@@ -4,7 +4,6 @@
       <Hero />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
-    <!--<LatestJournals :journals="$page.journals.edges" />-->
   </Layout>
 </template>
 
@@ -37,13 +36,10 @@ query Posts {
 <script>
 import Hero from "@/components/Hero"
 import ProjectsGrid from "@/components/ProjectsGrid"
-import LatestJournals from "@/components/LatestJournals"
-
 export default {
   components: {
     Hero,
-    ProjectsGrid,
-    LatestJournals
+    ProjectsGrid
   }
 }
 </script>

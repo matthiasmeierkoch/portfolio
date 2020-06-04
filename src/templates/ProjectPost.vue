@@ -132,16 +132,21 @@
     }
 
     .content >>> p {
-        font-size: 1.25rem;
-        line-height: 1.75rem;
+        font-size: 2rem;
+        line-height: 2.9rem;
+        font-weight: 400;
     }
 
     .content >>> h2 {
-        margin: 2.5rem 0 0;
+        margin: 3rem 0 0;
+        font-size: 3.157rem;
+        font-weight: 700;
     }
 
     .content >>> h3 {
-        margin: 2rem 0 0;
+        margin: 4rem 0 0;
+        font-size: 2.369rem;
+        font-weight: 700;
     }
 
     .content >>> ul {
