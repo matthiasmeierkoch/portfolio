@@ -77,8 +77,19 @@
 
 <style scoped>
 
+    h1 {
+        font-size: 4.209rem;
+    }
+
+    h2 {
+        font-size: 3.157rem;
+    }
+
+    h3 {
+        font-size: 2.369rem;
+    }
+
     .container {
-        max-width: 840px;
         font-family: sofia-pro, sans-serif;
     }
 
@@ -91,7 +102,7 @@
 
     .project-title {
         font-size: 5rem;
-        font-family: 700;
+        font-weight: 700;
         margin: 0 0 4rem 0;
         padding: 0;
 
@@ -126,11 +137,11 @@
     }
 
     .content >>> h2 {
-        margin: 2.5rem 0rem 0rem;
+        margin: 2.5rem 0 0;
     }
 
     .content >>> h3 {
-        margin: 2rem 0rem 0rem;
+        margin: 2rem 0 0;
     }
 
     .content >>> ul {
