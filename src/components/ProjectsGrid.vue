@@ -1,17 +1,17 @@
 <template>
     <div class="projects">
         <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-             data-sal-easing="ease-out-bounce"  class="project" v-for="item in projects" :key="item.node.id">
+             data-sal-easing="ease-out-bounce" class="project" v-for="item in projects" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
-            <g-image
-                :src="item.node.thumbnail"
-                :alt="item.node.title"
-                class="thumbnail"
-            />
-            <h3 class="project-title">{{ item.node.title }}</h3>
-            <div class="categories">
-                <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
-            </div>
+                <g-image
+                        :src="item.node.thumbnail"
+                        :alt="item.node.title"
+                        class="thumbnail"
+                />
+                <h3 class="project-title">{{ item.node.title }}</h3>
+                <div class="categories">
+                    <span class="category" v-for="(item, index) in item.node.categories" :key="index">{{ item }}</span>
+                </div>
             </g-link>
         </div>
     </div>
@@ -20,68 +20,76 @@
 <script>
     import sal from 'sal.js';
 
-export default {
-    props: {
-        projects: {
-            type: Array,
-            required: true
+    export default {
+        props: {
+            projects: {
+                type: Array,
+                required: true
+            }
+        },
+        mounted() {
+            this.$nextTick(() => sal());
         }
-    },
-    mounted() {
-        this.$nextTick(() => sal());
     }
-}
 </script>
 
 <style scoped>
-.projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 4rem;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.project {
-  grid-column: auto / span 2;
-  text-align: left;
-}
-.project-link {
-  text-decoration: none;
-}
-.thumbnail {
-  height: 560px;
-  object-fit: cover;
-  transition: all 0.15s ease;
-  box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
-}
-.project-title {
-    font-size: 1.3125rem;
-  color: var(--color-contrast);
-  margin: 1.5rem 0 1rem 0;
-    font-family: sofia-pro, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.categories {
-  font-size: 1rem;
-  color: var(--color-contrast-1);
-}
-.category {
-  margin-right: 0.8rem;
-}
-.category:last-of-type {
-  margin: 0;
-}
-.project:hover .thumbnail {
-  transform: scale(1.02);
-  box-shadow: 0 20px 40px -20px rgba(0,0,0,0.25);
-}
+    .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
 
-@media (min-width: 920px) {
-  .project {
-    grid-column: auto / span 1;
-  }
-}
+    .project {
+        grid-column: auto / span 2;
+        text-align: left;
+    }
+
+    .project-link {
+        text-decoration: none;
+    }
+
+    .thumbnail {
+        height: 480px;
+        object-fit: cover;
+        transition: all 0.15s ease;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
+    }
+
+    .project-title {
+        font-size: 1.3125rem;
+        color: var(--color-contrast);
+        margin: 1.5rem 0 1rem 0;
+        font-family: sofia-pro, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .categories {
+        font-size: 1rem;
+        color: var(--color-contrast-1);
+    }
+
+    .category {
+        margin-right: 0.8rem;
+    }
+
+    .category:last-of-type {
+        margin: 0;
+    }
+
+    .project:hover .thumbnail {
+        transform: scale(1.02);
+        box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (min-width: 920px) {
+        .project {
+            grid-column: auto / span 1;
+        }
+    }
 
 </style>
