@@ -49,6 +49,13 @@ export default {
 @media (max-width: 920px) {
     .hero {
         max-width: 100%;
+        font-size: 1.3125rem;
+    }
+    .hero-title{
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+        margin-top: -2.5rem;
+        width: 100%;
     }
 }
 </style>

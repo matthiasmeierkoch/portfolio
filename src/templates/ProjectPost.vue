@@ -91,6 +91,7 @@
 
     .container {
         font-family: sofia-pro, sans-serif;
+        max-width: 900px;
     }
 
     .project-header {
@@ -132,9 +133,11 @@
     }
 
     .content >>> p {
-        font-size: 2rem;
-        line-height: 2.9rem;
+        font-size: 1.3125rem;
+        line-height:2rem;
         font-weight: 400;
+        max-width: 60ch;
+        margin: auto;
     }
 
     .content >>> h2 {
@@ -160,30 +163,43 @@
 
     .content >>> img {
         min-width: calc(100vw - 4rem);
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    .content >>> iframe {
+        min-width: calc(100vw - 4rem);
+        margin-top: 2rem;
+        margin-bottom: 3rem;
 
     }
 
     @media (min-width: 860px) {
         .content >>> img {
             min-width: calc(100vw - 12rem);
+            margin-left: -9rem;
         }
     }
 
     @media (min-width: 1200px) {
         .content >>> img {
             min-width: calc(1200px - 12rem);
+            margin-left: -9rem;
         }
     }
 
     @media (min-width: 860px) {
         .content >>> iframe {
             min-width: calc(100vw - 12rem);
+            margin-left: -9rem;
         }
     }
 
     @media (min-width: 1200px) {
         .content >>> iframe {
             min-width: calc(1200px - 12rem);
+            margin-left: -9rem;
         }
     }
 </style>
