@@ -180,7 +180,8 @@
     @media (min-width: 860px) {
         .content >>> img {
             min-width: calc(100vw - 12rem);
-            margin-left: -9rem;
+            max-width: 700px;
+            margin-left: auto;
         }
 
         .content >>> h2 {
