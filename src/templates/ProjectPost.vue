@@ -141,7 +141,7 @@
     }
 
     .content >>> h2 {
-        margin: 3rem 0 0;
+        margin: 2rem 0 0;
         font-size: 3.157rem;
         font-weight: 700;
     }
@@ -180,12 +180,24 @@
             min-width: calc(100vw - 12rem);
             margin-left: -9rem;
         }
+
+        .content >>> h2 {
+            margin: 3rem 0 0;
+            font-size: 3.157rem;
+            font-weight: 700;
+        }
     }
 
     @media (min-width: 1200px) {
         .content >>> img {
             min-width: calc(1200px - 12rem);
             margin-left: -9rem;
+        }
+
+        .content >>> h2 {
+            margin: 3rem 0 0;
+            font-size: 3.157rem;
+            font-weight: 700;
         }
     }
 

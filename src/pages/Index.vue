@@ -1,7 +1,8 @@
 <template>
   <Layout>
     <div class="container">
-      <Hero />
+      <Hero data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+            data-sal-easing="ease-out-bounce" />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
   </Layout>
@@ -36,10 +37,15 @@ query Posts {
 <script>
 import Hero from "@/components/Hero"
 import ProjectsGrid from "@/components/ProjectsGrid"
+import sal from 'sal.js';
+
 export default {
   components: {
     Hero,
     ProjectsGrid
+  },
+  mounted() {
+    this.$nextTick(() => sal());
   }
 }
 </script>

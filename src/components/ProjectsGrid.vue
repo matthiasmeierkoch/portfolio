@@ -1,6 +1,7 @@
 <template>
     <div class="projects">
-        <div class="project" v-for="item in projects" :key="item.node.id">
+        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+             data-sal-easing="ease-out-bounce"  class="project" v-for="item in projects" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
             <g-image
                 :src="item.node.thumbnail"
@@ -17,12 +18,17 @@
 </template>
 
 <script>
+    import sal from 'sal.js';
+
 export default {
     props: {
         projects: {
             type: Array,
             required: true
         }
+    },
+    mounted() {
+        this.$nextTick(() => sal());
     }
 }
 </script>
@@ -50,7 +56,7 @@ export default {
   box-shadow: 0 0 40px -20px rgba(0,0,0,0.25);
 }
 .project-title {
-  font-size: 1.25rem;
+    font-size: 1.3125rem;
   color: var(--color-contrast);
   margin: 1.5rem 0 1rem 0;
     font-family: sofia-pro, sans-serif;
@@ -58,7 +64,7 @@ export default {
     font-style: normal;
 }
 .categories {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--color-contrast-1);
 }
 .category {

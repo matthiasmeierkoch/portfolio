@@ -9,6 +9,8 @@
 <script>
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import sal from 'sal.js';
+
 
 export default {
   components: {
@@ -20,7 +22,9 @@ export default {
 
 
 <style>
-* {
+  @import "../../node_modules/sal.js/dist/sal.css";
+
+  * {
   box-sizing: border-box;
 }
 
