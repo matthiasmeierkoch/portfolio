@@ -138,11 +138,13 @@
         font-weight: 400;
         max-width: 60ch;
         margin: auto;
+        margin-bottom: 1.5rem;
     }
 
     .content >>> h2 {
-        margin: 2rem 0 0;
-        font-size: 3.157rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
         font-weight: 700;
     }
 
@@ -182,7 +184,8 @@
         }
 
         .content >>> h2 {
-            margin: 3rem 0 0;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
             font-size: 3.157rem;
             font-weight: 700;
         }
@@ -195,7 +198,8 @@
         }
 
         .content >>> h2 {
-            margin: 3rem 0 0;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
             font-size: 3.157rem;
             font-weight: 700;
         }
