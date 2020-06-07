@@ -1,11 +1,11 @@
 <template>
     <div class="hero">
         <h1 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-            data-sal-easing="ease-out-bounce" class="hero-title" v-html="settings.hero_title">
+            data-sal-easing="ease-out-expo" class="hero-title" v-html="settings.hero_title">
 
         </h1>
         <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-            data-sal-easing="ease-out-bounce" class="hero-subtitle" v-html="settings.hero_subtitle" />
+            data-sal-easing="ease-out-expo" class="hero-subtitle" v-html="settings.hero_subtitle" />
     </div>
 </template>
 

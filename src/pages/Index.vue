@@ -2,7 +2,7 @@
   <Layout>
     <div class="container">
       <Hero data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-            data-sal-easing="ease-out-bounce" />
+            data-sal-easing="ease-out-expo" />
       <ProjectsGrid :projects="$page.projects.edges" />
     </div>
   </Layout>

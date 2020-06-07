@@ -4,8 +4,9 @@
 
             <div class="container">
 
-                <div class="project-header">
-                    <h1 class="project-title" v-html="$page.post.title"/>
+                <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                     data-sal-easing="ease-out-expo" class="project-header">
+                    <h1  class="project-title" v-html="$page.post.title"/>
                     <h2 class="project-title" v-html="$page.post.style"/>
                     <div class="project-info">
 
@@ -63,6 +64,8 @@
 </page-query>
 
 <script>
+    import sal from 'sal.js';
+
     export default {
         metaInfo() {
             return {
@@ -71,11 +74,31 @@
                     style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
                 }
             }
+        },
+        mounted() {
+            this.$nextTick(() => sal());
         }
     }
 </script>
 
 <style scoped>
+
+    .content{
+        -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+        animation: 1s ease 0s normal forwards 1 fadein;
+    }
+
+    @keyframes fadein{
+        0% { opacity:0; }
+        66% { opacity:0; }
+        100% { opacity:1; }
+    }
+
+    @-webkit-keyframes fadein{
+        0% { opacity:0; }
+        66% { opacity:0; }
+        100% { opacity:1; }
+    }
 
     h1 {
         font-size: 4.209rem;
