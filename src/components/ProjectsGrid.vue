@@ -53,7 +53,7 @@
     }
 
     .thumbnail {
-        height: 480px;
+        height: 320px;
         object-fit: cover;
         transition: all 0.15s ease;
         box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
@@ -89,6 +89,9 @@
     @media (min-width: 920px) {
         .project {
             grid-column: auto / span 1;
+        }
+        .thumbnail {
+            height: 540px;
         }
     }
 
