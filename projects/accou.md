@@ -60,4 +60,9 @@ Unsere Testkandidaten haben nahezu 100% die Selbe Inhaltsarchitektur angelegt di
 
 ![](/uploads/Cardsorting2.jpg)
 
-## Design-System:
+## Design:
+Für das Design haben wir uns entschieden den Designtrend des Jahres 2020 in der Realität zu testen, das ist: [«Neumorphism»](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
+![](/uploads/Accou_Design.png)
+
+## Prototyp:
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ZEG5zI7qYqj69KRDQ6Qo1%2FAfterlife%3Fnode-id%3D159%253A3%26viewport%3D333%252C311%252C0.10193023830652237%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
