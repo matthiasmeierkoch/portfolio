@@ -2,13 +2,7 @@
     <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
         <div class="container">
             <div class="left">
-                <g-link :to="{ name: 'home' }" class="home-link">
-                    <img 
-                        src="../../static/logo.svg"
-                        :alt="settings.site_name" 
-                        class="logo"
-                    />
-                </g-link>
+                <g-link :to="{ name: 'home' }" class="home-link">Matthias Koch</g-link>
             </div>
             <nav class="nav right">
                 <g-link class="nav__link" to="/" exact>Work</g-link>
@@ -57,6 +51,11 @@ export default {
 }
 .logo {
     height: 1.5rem;
+}
+
+.left{
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 .site-name {
     font-size: 0.9rem;
