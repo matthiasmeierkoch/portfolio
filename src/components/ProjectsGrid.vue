@@ -87,13 +87,24 @@
         box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.3);
     }
 
-    @media (min-width: 920px) {
+
+
+    @media (min-width: 580px) {
         .project {
-            grid-column: auto / span 1;
         }
         .thumbnail {
             height: 540px;
         }
     }
+
+    @media (min-width: 920px) {
+        .project {
+            grid-column: auto / span 1;
+        }
+        .thumbnail {
+            width: 540px;
+        }
+    }
+
 
 </style>
