@@ -30,7 +30,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 1rem;
-        padding: 3rem 1rem;
+        padding: 6rem 6rem;
         max-width: 1200px;
         margin: auto;
     }
@@ -46,9 +46,10 @@
         margin: auto;
     }
 
-    @media (min-width: 860px) {
+    @media (max-width: 860px) {
         .footer {
-            padding: 6 6rem;
+            padding: 4rem 1rem;
+            align-content: center;
         }
     }
 
