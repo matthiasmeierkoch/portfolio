@@ -3,10 +3,10 @@
 
 module.exports = {
   siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteUrl: `https://www.matthiasko.ch`,
   host: "0.0.0.0",
-  titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  titleTemplate: "Matthias Koch - %s ",
+  siteDescription: "Matthias Koch, Interaction Designer Portfolio",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
