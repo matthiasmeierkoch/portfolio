@@ -6,6 +6,7 @@
             </div>
             <nav class="nav right">
                 <g-link class="nav__link" to="/" exact>Work</g-link>
+                <g-link class="nav__link" to="https://lab.matthiasko.ch" exact>Lab</g-link>
                 <g-link class="nav__link" to="/contact">About</g-link>
             </nav>
         </div>
