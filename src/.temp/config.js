@@ -1,7 +1,7 @@
 export default {
   "trailingSlash": true,
   "pathPrefix": "",
-  "titleTemplate": "%s - NWA",
-  "siteUrl": "https://www.itsnwa.com",
+  "titleTemplate": "Matthias Koch - %s ",
+  "siteUrl": "https://www.matthiasko.ch",
   "version": "0.7.11"
 }
