@@ -1,7 +1,7 @@
 ---
 date: 2019-05-16
 year: 2019
-credits: Marc Hatt, Nils Mäder, Lars Mäder
+credits: <a href="https://portfolio.marc-hatt.ch" target="_blank">Marc Hatt</a>, <a href="http://nilsmaeder.ch/" target="_blank">Nils Mäder</a>, <a href="http://larsmaeder.ch/" target="_blank">Lars Mäder</a>
 title: Accou
 category: UX / UI Design
 thumbnail: "/uploads/Accou.png"
@@ -14,6 +14,7 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
+![](/uploads/Accou_2.png)
 
 Im Jahr 2017 hatte eine Person im Durchschnitt 7,6 Online Accounts. 53% der Facebook User sind über 50 Jahre alt. Was geschieht mit diesen Accounts falls Ihr Besitzer einmal verstirbt?
 
@@ -63,6 +64,7 @@ Unsere Testkandidaten haben nahezu 100% die Selbe Inhaltsarchitektur angelegt di
 ## Design:
 Für das Design haben wir uns entschieden den Designtrend des Jahres 2020 in der Realität zu testen, das ist: [«Neumorphism»](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
 ![](/uploads/Accou_Design.png)
+![](/uploads/Accou_Design_System.png)
 
 ## Prototyp:
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ZEG5zI7qYqj69KRDQ6Qo1%2FAfterlife%3Fnode-id%3D159%253A3%26viewport%3D333%252C311%252C0.10193023830652237%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>

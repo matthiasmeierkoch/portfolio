@@ -6,8 +6,8 @@ categories:
 - UI Design
 - UX Design
 - Didaktisches Design
-- Schulprojekt
-credits: Pascale Anderegg, Severin Kilchhofer
+Projektart: Schulprojekt
+credits: <a href="https://pascaleva.ch" target="_blank">Pascale Anderegg</a>, <a href="https://kilchhofer.ch" target="_blank">Severin Kilchhofer</a>
 project_bg_color: ""
 project_fg_color: ""
 
@@ -24,6 +24,10 @@ So entstanden die Wireframes:
 
 und aus den Wireframes entstand das Design.
 ![](/uploads/Liam_Design.png)
+## Mitwirkende
+
+
+[Pascale Anderegg](https://www.pascaleva.ch "Pascale's Homepage")
 
 ## Prototyp
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fj3v4GhCw0v9VIdVTT4JN1n%2FLiam%3Fnode-id%3D1%253A2%26viewport%3D221%252C614%252C0.06738853454589844%26scaling%3Dcontain&chrome=DOCUMENTATION" allowfullscreen></iframe>

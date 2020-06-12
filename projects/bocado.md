@@ -6,12 +6,13 @@ categories:
 - UX Design
 - UI Design
 - Human Centered Design
-credits: Pascale Anderegg, Nicole Watrinet, Marc Hatt
+credits:  <a href="https://pascaleva.ch" target="_blank">Pascale Anderegg</a>, Nicole Watrinet,  <a href="https://portfolio.marc-hatt.ch" target="_blank">Marc Hatt</a>
 Projektart: Schulprojekt
 project_bg_color: ''
 project_fg_color: ""
 
 ---
+![](/uploads/Bocado_2.png)
 
 
 ## Aufgabe
@@ -39,7 +40,7 @@ Nach unserer Vorarbeit in welcher wir viele spannende Einblicke in diverse Lernp
 Das Endprodukt unserer Gruppenarbeit ist das Konzept und Design der Lernapp «bocado» (Spanisch für Häppchen) dies ermöglicht Schüler und Studenten eine «häppchenweise» Repetition.
 
 ### Figma Prototyp:
-<iframe height='400' scrolling='no' title='Flexbox Flex-Grow Mast' src='//www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGN1f3SvmzTkia4DAZaBix0%2FHi-Fi-Prototyp%3Fnode-id%3D249%253A5%26scaling%3Dscale-down' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+<iframe height='600' scrolling='no' title='Flexbox Flex-Grow Mast' src='//www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGN1f3SvmzTkia4DAZaBix0%2FHi-Fi-Prototyp%3Fnode-id%3D249%253A5%26scaling%3Dscale-down' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 
 ## Meine Leistungen
 * Aufsetzten der technischen Lösung für die Dokumentation mit dem Jekyll Template «Just the Doc’s», welches auf GitHub Pages gehostet wird.
