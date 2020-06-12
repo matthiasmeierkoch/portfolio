@@ -45,7 +45,9 @@ export default {
     ProjectsGrid
   },
   mounted() {
-    this.$nextTick(() => sal());
+    this.$nextTick(() => sal({
+      threshold: 0.2,
+    }));
   }
 }
 </script>

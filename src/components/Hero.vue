@@ -31,7 +31,7 @@ export default {
     max-width: 100%;
     padding: 4rem 0 4rem 0;
     line-height: 4.2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 2rem;
 }
 
 .hero-title {
@@ -57,6 +57,19 @@ export default {
 }
 
 @media (max-width: 920px) {
+    .hero {
+        max-width: 100%;
+        font-size: 1.3125rem;
+    }
+    .hero-title{
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-top: -2.5rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
     .hero {
         max-width: 100%;
         font-size: 1.3125rem;
