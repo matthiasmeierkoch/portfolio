@@ -31,6 +31,7 @@ export default {
     max-width: 100%;
     padding: 4rem 0 4rem 0;
     line-height: 4.2rem;
+    margin-bottom: -2rem;
 }
 
 .hero-title {
