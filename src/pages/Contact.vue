@@ -12,34 +12,34 @@
                     mit Freunden. Den Ausgleich zum Alltag finde ich im Sport oder auf dem Motorrad.
                 </p>
                 <div class="contact__content">
-                <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
-                <p><b>Mail:</b> hello(at)matthiasko.ch</p>
-                <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"><b>LinkedIn</b></a></p>
-                <p><a href="https://twitter.com/matthiasmkoch"><b>Twitter</b></a></p>
+                    <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
+                    <p><b>Mail:</b> hello(at)matthiasko.ch</p>
+                    <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"><b>LinkedIn</b></a></p>
+                    <p><a href="https://twitter.com/matthiasmkoch"><b>Twitter</b></a></p>
                 </div>
 
             </div>
-<!--            <form class="contact-form" name="contact">
+            <!--            <form class="contact-form" name="contact">
 
-                <div class="sender-info">
-                    <div>
-                        <label for="name" class="label">Your name</label>
-                        <input type="text" name="name"/>
-                    </div>
-                    <div>
-                        <label for="email" class="label">Your email</label>
-                        <input type="email" name="email"/>
-                    </div>
-                </div>
+                            <div class="sender-info">
+                                <div>
+                                    <label for="name" class="label">Your name</label>
+                                    <input type="text" name="name"/>
+                                </div>
+                                <div>
+                                    <label for="email" class="label">Your email</label>
+                                    <input type="email" name="email"/>
+                                </div>
+                            </div>
 
-                <div class="message">
-                    <label for="message" class="label">Message</label>
-                    <textarea name="message"></textarea>
-                </div>
+                            <div class="message">
+                                <label for="message" class="label">Message</label>
+                                <textarea name="message"></textarea>
+                            </div>
 
-                <button class="button">Submit form</button>
+                            <button class="button">Submit form</button>
 
-            </form>-->
+                        </form>-->
 
         </div>
     </Layout>
@@ -58,6 +58,9 @@
         font-size: 4rem;
         margin: 0 0 4rem 0;
         padding: 0;
+    }
+
+    .container {
     }
 
     .sender-info {
@@ -118,11 +121,11 @@
         border: 1px solid var(--color-base-1);
     }
 
-    .contact-header{
+    .contact-header {
         margin: auto;
     }
 
-    h1{
+    h1 {
         margin-left: 0;
     }
 
@@ -132,26 +135,29 @@
         margin-top: 3rem;
     }
 
-    .contact__img{
+    .contact__img {
         margin-left: 25%;
         max-width: 50%;
         border-radius: 100%;
     }
 
-    .container{
+    .container {
         max-width: 65ch;
     }
 
-    .contact__content{
-        width: 65ch;
+    .contact__content {
+        max-width: 65ch;
         margin: auto;
         margin-top: 4rem;
     }
 
     @media (max-width: 520px) {
-        .contact__img{
-            margin: auto;
-            max-width: 100%;
+        .contact__img {
+            margin-left: 10%;
+            max-width: 80%;
+        }
+        .contact-title{
+            font-size: 2.5rem;
         }
     }
 </style>
