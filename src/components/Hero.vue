@@ -62,8 +62,8 @@ export default {
         font-size: 1.3125rem;
     }
     .hero-title{
-        font-size: 2.5rem;
-        line-height: 3.25rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
         margin-top: -2.5rem;
         width: 100%;
     }
