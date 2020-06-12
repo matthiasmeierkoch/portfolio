@@ -64,6 +64,7 @@ Unsere Testkandidaten haben nahezu 100% die Selbe Inhaltsarchitektur angelegt di
 ## Design:
 Für das Design haben wir uns entschieden den Designtrend des Jahres 2020 in der Realität zu testen, das ist: [«Neumorphism»](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
 ![](/uploads/Accou_Design.png)
+
 ![](/uploads/Accou_Design_System.png)
 
 ## Prototyp:
