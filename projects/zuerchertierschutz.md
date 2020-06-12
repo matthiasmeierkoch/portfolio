@@ -6,7 +6,8 @@ categories:
 - UX Design
 - UI Design
 - Kundenprojekt
-
+credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>
+Projektart: Kundenprojekt
 project_bg_color: ''
 project_fg_color: ''
 
