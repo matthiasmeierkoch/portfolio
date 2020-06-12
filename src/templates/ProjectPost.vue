@@ -125,7 +125,7 @@
     }
 
     .project-title {
-        font-size: 5rem;
+        font-size: 3.5rem;
         font-weight: 700;
         margin: 0 0 4rem 0;
         padding: 0;
@@ -227,6 +227,10 @@
             font-size: 3.157rem;
             font-weight: 700;
         }
+
+        .project-title{
+            font-size: 5rem;
+        }
     }
 
     @media (min-width: 860px) {
@@ -242,5 +246,6 @@
             margin-left: -9rem;
         }
     }
+
 </style>
 
