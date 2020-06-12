@@ -1,10 +1,9 @@
 <template>
     <Layout>
         <div class="container">
-
             <div class="contact-header">
                 <h1 class="contact-title">Matthias Koch</h1>
-              <g-image class="contact__img" src="../../uploads/matthiaskoch.jpg"></g-image>
+                <g-image class="contact__img" src="../../uploads/matthiaskoch.jpg"></g-image>
                 <p>Mein Name ist Matthias Koch, ich bin 23 Jahre alt, komme aus Zug und studiere Interaction Design an
                     der Schule für Gestaltung Zürich (SFGZ).
                 </p>
@@ -12,10 +11,15 @@
                     In meiner Freizeit beschäftige ich mich gerne mit Design, Fotografie, Kunst und treffe mich gerne
                     mit Freunden. Den Ausgleich zum Alltag finde ich im Sport oder auf dem Motorrad.
                 </p>
+                <div class="contact__content">
+                <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
+                <p><b>Mail:</b> hello(at)matthiasko.ch</p>
+                <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"><b>LinkedIn</b></a></p>
+                <p><a href="https://twitter.com/matthiasmkoch"><b>Twitter</b></a></p>
+                </div>
 
             </div>
-
-            <form class="contact-form" name="contact">
+<!--            <form class="contact-form" name="contact">
 
                 <div class="sender-info">
                     <div>
@@ -35,7 +39,7 @@
 
                 <button class="button">Submit form</button>
 
-            </form>
+            </form>-->
 
         </div>
     </Layout>
@@ -125,12 +129,30 @@
     p {
         max-width: 65ch;
         margin: auto;
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
     .contact__img{
-        margin: auto;
+        margin-left: 25%;
         max-width: 50%;
+        border-radius: 100%;
+    }
+
+    .container{
+        max-width: 65ch;
+    }
+
+    .contact__content{
+        width: 65ch;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    @media (max-width: 520px) {
+        .contact__img{
+            margin: auto;
+            max-width: 100%;
+        }
     }
 </style>
 
