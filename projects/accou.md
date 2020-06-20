@@ -16,6 +16,7 @@ project_fg_color: ''
 ---
 ![](/uploads/Accou_2.png)
 
+## Ausgangslage:
 Im Jahr 2017 hatte eine Person im Durchschnitt 7,6 Online Accounts. 53% der Facebook User sind über 50 Jahre alt. Was geschieht mit diesen Accounts falls Ihr Besitzer einmal verstirbt?
 
 Accou hat sich zum Ziel gemacht dieses Problem zu lösen.
@@ -63,9 +64,11 @@ Unsere Testkandidaten haben nahezu 100% die Selbe Inhaltsarchitektur angelegt di
 
 ## Design:
 Für das Design haben wir uns entschieden den Designtrend des Jahres 2020 in der Realität zu testen, das ist: [«Neumorphism»](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
-![](/uploads/Accou_Design.png
+
+![](/uploads/Accou_Design.png)
 
 ## Design System:
+
 ![](/uploads/Accou_Design_System.png)
 
 ## Prototyp:
