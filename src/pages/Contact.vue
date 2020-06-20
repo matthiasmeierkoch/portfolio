@@ -14,9 +14,10 @@
                 <div class="contact__content">
                     <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
                     <p><b>Mail:</b> hello(at)matthiasko.ch</p>
-                    <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"><b>LinkedIn</b></a></p>
-                    <p><a href="https://twitter.com/matthiasmkoch"><b>Twitter</b></a></p>
-                    <p><a href="https://github.com/matthiasmeierkoch/"><b>GitHub</b></a></p>
+                    <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/" target="_blank"><b>LinkedIn</b></a></p>
+                    <p><a href="https://github.com/matthiasmeierkoch/" target="_blank"><b>GitHub</b></a></p>
+                    <p><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a></p>
+                    <p><a href="https://instagram.com/matthiasmeierkoch" target="_blank"><b>Instagram</b></a></p>
                 </div>
 
             </div>
