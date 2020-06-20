@@ -16,6 +16,7 @@
                     <p><b>Mail:</b> hello(at)matthiasko.ch</p>
                     <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"><b>LinkedIn</b></a></p>
                     <p><a href="https://twitter.com/matthiasmkoch"><b>Twitter</b></a></p>
+                    <p><a href="https://github.com/matthiasmeierkoch/"><b>GitHub</b></a></p>
                 </div>
 
             </div>
