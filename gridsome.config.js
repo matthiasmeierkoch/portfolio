@@ -31,7 +31,13 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
-    }
+    },
+      {
+          use: '@gridsome/plugin-google-analytics',
+          options: {
+              id: 'UA-138954960-1'
+          }
+      }
   ],
   transformers: {
     remark: {
