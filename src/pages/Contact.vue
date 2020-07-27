@@ -13,12 +13,15 @@
                     mit Freunden. Den Ausgleich zum Alltag finde ich im Sport oder auf dem Motorrad.
                 </p>
                 <div class="contact__content">
-                    <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
-                    <p><b>Mail:</b> hello(at)matthiasko.ch</p>
-                    <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/" target="_blank"><b>LinkedIn</b></a></p>
-                    <p><a href="https://github.com/matthiasmeierkoch/" target="_blank"><b>GitHub</b></a></p>
-                    <p><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a></p>
-                    <p><a href="https://instagram.com/matthiasmeierkoch" target="_blank"><b>Instagram</b></a></p>
+                    <div class="contact__links">
+                        <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
+                        <p><b>Mail:</b> hello(at)matthiasko.ch</p>
+                        <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
+                              target="_blank"><b>LinkedIn</b></a></p>
+                        <p><a href="https://github.com/matthiasmeierkoch/" target="_blank"><b>GitHub</b></a></p>
+                        <p><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a></p>
+                        <p><a href="https://instagram.com/matthiasmeierkoch" target="_blank"><b>Instagram</b></a></p>
+                    </div>
                 </div>
 
             </div>
@@ -121,7 +124,6 @@
         margin-top: 2rem;
         cursor: pointer;
         transition: opacity 0.25s ease;
-        font-size: 500;
         letter-spacing: 0.035em;
     }
 
@@ -148,9 +150,9 @@
     }
 
     .contact__img {
-        margin-left: 25%;
-        max-width: 50%;
-        border-radius: 100%;
+        margin-left: 15%;
+        max-width: 65%;
+        border-radius: 1rem;
     }
 
     .container {
@@ -159,8 +161,11 @@
 
     .contact__content {
         max-width: 65ch;
-        margin: auto;
         margin-top: 4rem;
+    }
+
+    .contact__links{
+
     }
 
     @media (max-width: 520px) {
@@ -168,7 +173,8 @@
             margin-left: 10%;
             max-width: 80%;
         }
-        .contact-title{
+
+        .contact-title {
             font-size: 2.5rem;
         }
     }
