@@ -120,9 +120,6 @@
         padding: 20vh 0 4rem 0;
     }
 
-    .credits-container {
-    }
-
     .project-title {
         font-size: 3.5rem;
         font-weight: 700;
@@ -135,11 +132,12 @@
         display: flex;
         flex-wrap: wrap;
         font-size: 1rem;
+        width: 100%;
 
     }
 
     .project-info > div {
-        margin-right: 4rem;
+        margin-right: 1.5rem;
     }
 
     .project-info > div:last-of-type {
@@ -204,6 +202,10 @@
             min-width: calc(100vw - 12rem);
             max-width: 700px;
             margin-left: auto;
+        }
+
+        .project-info > div {
+            margin-right: 4rem;
         }
 
         .content >>> h2 {
