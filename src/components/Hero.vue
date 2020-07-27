@@ -29,7 +29,7 @@ export default {
     text-align: left;
     max-width: 1200px;
     max-width: 100%;
-    padding: 4rem 0 4rem 0;
+    padding: 3rem 0 4rem 0;
     line-height: 4.2rem;
     margin-bottom: 2rem;
 }
@@ -64,7 +64,6 @@ export default {
     .hero-title{
         font-size: 3rem;
         line-height: 4rem;
-        margin-top: -2.5rem;
         width: 100%;
     }
 }
@@ -75,10 +74,10 @@ export default {
         font-size: 1.3125rem;
     }
     .hero-title{
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-        margin-top: -2.5rem;
+        font-size: 2rem;
+        line-height: 2.55rem;
         width: 100%;
+        margin-bottom: -1rem;
     }
 }
 </style>

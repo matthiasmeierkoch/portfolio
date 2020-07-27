@@ -53,10 +53,10 @@
     }
 
     .thumbnail {
-        height: 320px;
+        height: 380px;
         object-fit: cover;
         transition: all 0.15s ease;
-        border-radius: 0;
+        border-radius: 1rem;
         box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
     }
 
