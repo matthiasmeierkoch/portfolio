@@ -1,7 +1,8 @@
 <template>
     <Layout>
         <div class="container">
-            <div class="contact-header">
+            <div class="contact-header" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                 data-sal-easing="ease-out-expo">
                 <h1 class="contact-title">Matthias Koch</h1>
                 <g-image class="contact__img" src="../../uploads/matthiaskoch.jpg"></g-image>
                 <p>Mein Name ist Matthias Koch, ich bin 23 Jahre alt, komme aus Zug und studiere Interaction Design an
@@ -48,7 +49,16 @@
 </template>
 
 <script>
-    export default {}
+    import sal from 'sal.js';
+
+    export default {
+        mounted() {
+            this.$nextTick(() => sal({
+                threshold: 0.2,
+            }));
+        }
+    }
+
 </script>
 
 <style scoped>

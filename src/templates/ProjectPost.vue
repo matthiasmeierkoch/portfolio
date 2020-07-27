@@ -4,8 +4,7 @@
 
             <div class="container">
 
-                <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                     data-sal-easing="ease-out-expo" class="project-header">
+                <div  class="project-header">
                     <h1  class="project-title" v-html="$page.post.title"/>
                     <h2 class="project-title" v-html="$page.post.style"/>
                     <div class="project-info">
@@ -83,9 +82,9 @@
 
 <style scoped>
 
-    .content{
-        -webkit-animation: 1s ease 0s normal forwards 1 fadein;
-        animation: 1s ease 0s normal forwards 1 fadein;
+    .project{
+        -webkit-animation: 1s ease 0s normal forwards fadein;
+        animation: 1s ease 0s normal forwards fadein;
     }
 
     @keyframes fadein{
