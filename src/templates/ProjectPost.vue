@@ -4,8 +4,8 @@
 
             <div class="container">
 
-                <div  class="project-header">
-                    <h1  class="project-title" v-html="$page.post.title"/>
+                <div class="project-header">
+                    <h1 class="project-title" v-html="$page.post.title"/>
                     <h2 class="project-title" v-html="$page.post.style"/>
                     <div class="project-info">
 
@@ -81,22 +81,37 @@
 </script>
 
 <style scoped>
+    body {
+        overflow-x: hidden;
+    }
 
-    .project{
+    .project {
         -webkit-animation: 1s ease 0s normal forwards fadein;
         animation: 1s ease 0s normal forwards fadein;
     }
 
-    @keyframes fadein{
-        0% { opacity:0; }
-        66% { opacity:0; }
-        100% { opacity:1; }
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        66% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
-    @-webkit-keyframes fadein{
-        0% { opacity:0; }
-        66% { opacity:0; }
-        100% { opacity:1; }
+    @-webkit-keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        66% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     h1 {
@@ -154,7 +169,7 @@
 
     .content >>> p {
         font-size: 1.3125rem;
-        line-height:2rem;
+        line-height: 2rem;
         font-weight: 400;
         max-width: 60ch;
         margin: auto;
@@ -229,7 +244,7 @@
             font-weight: 700;
         }
 
-        .project-title{
+        .project-title {
             font-size: 5rem;
         }
     }
