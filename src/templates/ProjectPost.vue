@@ -81,6 +81,7 @@
 </script>
 
 <style scoped>
+
     body {
         overflow-x: hidden;
     }
@@ -214,7 +215,7 @@
 
     @media (min-width: 860px) {
         .content >>> img {
-            min-width: calc(100vw - 12rem);
+            min-width: calc(100vw - 50%);
             max-width: 700px;
             margin-left: auto;
         }
