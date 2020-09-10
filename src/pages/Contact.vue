@@ -3,18 +3,45 @@
         <div class="container">
             <div class="contact-header" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                  data-sal-easing="ease-out-expo">
-                <h1 class="contact-title">Matthias Koch</h1>
+                <h1 class="contact-title"></h1>
                 <g-image class="contact__img" src="../../uploads/matthiaskoch.jpg"></g-image>
-                <p>Mein Name ist Matthias Koch, ich bin 23 Jahre alt, komme aus Zug und studiere Interaction Design an
-                    der Schule für Gestaltung Zürich (SFGZ).
+                <h2>Über mich...</h2>
+                <h3>...als Designer</h3>
+                <p>
+                    Mein Name ist Matthias Koch. Ich lebe und arbeite in Zürich als UX / UI Designer.
                 </p>
                 <p>
-                    In meiner Freizeit beschäftige ich mich gerne mit Design, Fotografie, Kunst und treffe mich gerne
-                    mit Freunden. Den Ausgleich zum Alltag finde ich im Sport oder auf dem Motorrad.
+                    Nach einer Berufslehre als Fotofachmann habe ich eine Weiterbildung zum Kommunikationsdesigner mit
+                    Vertiefung Interaction Design im Sommer 2020 abgeschlossen. Gleichzeitig konnte ich Berufserfahrung
+                    im Agenturumfeld und auf Kundenseite erlangen.
                 </p>
+                <p>
+                    In meinem Alltag beschäftige ich mich mit dem Zusammenhang von visueller Gestaltung, Psychologie
+                    und Technik. Dabei setzte ich von Anfang an den Menschen in den Fokus.
+                </p>
+                <p>
+                    Themen die mich besonders interessieren, jedoch in meinem jetzigen Berufsalltag etwas zu kurz
+                    kommen sind Daten Visualisierungen, Markenführung (Branding) und Werbung.
+                </p>
+                <h3>...als Person</h3>
+                <p>
+                    Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik. In meiner Freizeit
+                    finde ich das vorallem in Museen, beim Fotografieren und im Alltag mit Möbel, alten Zweiräder (mit
+                    und ohne Motor), Kaffemachienen und Uhren.
+                </p>
+                <p>
+                    Meinen Ausgleich zur Arbeit und dem Design finde ich hauptsächlich beim Sport. Zurzeit trainiere ich
+                    Triathlon, im Fitness und Yoga.
+                </p>
+                <p>
+                    In den Ferien verbinde ich meine Leidenschaft des Fotografieren, mit dem Reisen, Surfen oder dem
+                    Skifahren. Einige meiner Bilder veröffentliche ich auf <a href=https://unsplash.com/@matthiasmeierkoch
+                                                                target="_blank">Unsplash</a>.
+                </p>
+
                 <div class="contact__content">
                     <div class="contact__links">
-                        <h3>Möchtest du dich mit mir in kontakt setzten?</h3>
+                        <h2>Möchtest du dich mit mir in kontakt setzten?</h2>
                         <p><b>Mail:</b> hello(at)matthiasko.ch</p>
                         <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
                               target="_blank"><b>LinkedIn</b></a></p>
@@ -144,9 +171,9 @@
     }
 
     p {
-        max-width: 65ch;
+        max-width: 68ch;
         margin: auto;
-        margin-top: 3rem;
+        margin-top: 1.5rem;
     }
 
     .contact__img {
@@ -156,15 +183,15 @@
     }
 
     .container {
-        max-width: 65ch;
+        max-width: 68ch;
     }
 
     .contact__content {
-        max-width: 65ch;
+        max-width: 68ch;
         margin-top: 4rem;
     }
 
-    .contact__links{
+    .contact__links {
 
     }
 
