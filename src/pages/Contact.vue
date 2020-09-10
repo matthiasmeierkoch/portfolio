@@ -1,12 +1,12 @@
 <template>
     <Layout>
         <div class="container">
-            <div class="contact-header" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                 data-sal-easing="ease-out-expo">
-                <h1 class="contact-title"></h1>
-                <h2>Über mich...</h2>
-                <div class="flex-box">
-                    <div>
+            <div class="contact-header">
+                <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                    data-sal-easing="ease-out-expo">Über mich...</h2>
+                <div class="flex-box" >
+                    <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                         data-sal-easing="ease-out-expo">
                         <h3>...als Designer</h3>
                         <p>
                             Mein Name ist Matthias Koch. Ich lebe und arbeite in Zürich als UX / UI Designer.
@@ -31,7 +31,8 @@
                         </p>
                     </div>
 
-                    <div>
+                    <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                         data-sal-easing="ease-out-expo">
                         <h3>...als Person</h3>
                         <p>
                             Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik. In meiner
@@ -57,8 +58,10 @@
                     </div>
                 </div>
 
-                <h2 class="contact__content">Möchtest du dich mit mir in kontakt setzten?</h2>
-                <div class="flex-box">
+                <h2 class="contact__content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                    data-sal-easing="ease-out-expo">Möchtest du dich mit mir in Kontakt setzten?</h2>
+                <div class="flex-box" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                     data-sal-easing="ease-out-expo">
                     <div class="contact__links">
                         <p><b>Mail:</b> hello(at)matthiasko.ch</p>
                         <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
@@ -69,7 +72,8 @@
                         </p>
                     </div>
 
-                    <div class="contact__img">
+                    <div class="contact__img" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                         data-sal-easing="ease-out-expo">
                         <g-image src="../../uploads/matthiaskoch.jpg"></g-image>
                     </div>
 
@@ -108,7 +112,7 @@
     export default {
         mounted() {
             this.$nextTick(() => sal({
-                threshold: 0.2,
+                threshold: 0.25,
             }));
         }
     }
@@ -216,6 +220,7 @@
         display: grid;
         border-radius: 1rem;
         overflow: hidden;
+        background-image: url("https://matthiasko.ch/assets/static/matthiaskoch.jpg");
         -webkit-box-shadow: 0px 0px 16px 0px rgba(190, 190, 190, 0.75);
         box-shadow: 0px 0px 16px 0px rgba(190, 190, 190, 0.75);
         -moz-box-shadow: 16px 16px 16px 16px rgba(190, 190, 190, 0.75);
@@ -235,6 +240,27 @@
         max-width: 68ch;
     }
 
+    @media (max-width: 900px) {
+        .contact__img {
+            margin-left: 10%;
+            max-width: 80%;
+            margin-top: 4rem;
+        }
+
+        .container{
+            max-width: 68ch;
+        }
+        .flex-box {
+            display: block;
+        }
+
+        .flex-box > div {
+            display: block;
+        }
+
+    }
+
+
     @media (max-width: 520px) {
         .contact__img {
             margin-left: 10%;
@@ -252,6 +278,10 @@
 
         .flex-box > div {
             display: block;
+        }
+
+        h2{
+            margin-top: 0;
         }
     }
 </style>
