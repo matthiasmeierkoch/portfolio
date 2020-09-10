@@ -9,7 +9,7 @@
                 <!--
                                 <g-link class="nav__link" to="https://lab.matthiasko.ch" exact>Lab</g-link>
                 -->
-                <g-link class="nav__link" to="/contact">About</g-link>
+                <g-link class="nav__link" to="/contact">Credo</g-link>
             </nav>
         </div>
     </header>
