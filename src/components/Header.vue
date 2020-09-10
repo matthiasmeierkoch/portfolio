@@ -94,12 +94,12 @@
     }
 
     .nav > *:hover {
-        border-color: inherit;
+        border-color: #BEBEBE;
     }
 
 
     .nav > .active {
-        border-color: red;
+        border-color: #000;
         text-decoration: none
     }
 </style>
