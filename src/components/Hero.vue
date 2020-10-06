@@ -57,14 +57,14 @@ export default {
     opacity: 0.6;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 919px) {
     .hero {
         max-width: 100%;
         font-size: 1.3125rem;
     }
     .hero-title{
-        font-size: 3rem;
-        line-height: 4rem;
+        font-size:3rem;
+        line-height: 4.4rem;
         width: 100%;
     }
 }
@@ -75,8 +75,8 @@ export default {
         font-size: 1.3125rem;
     }
     .hero-title{
-        font-size: 2rem;
-        line-height: 2.55rem;
+        font-size: 2.35rem;
+        line-height: 3.35rem;
         width: 100%;
         margin-bottom: -1rem;
     }
