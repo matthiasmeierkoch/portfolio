@@ -139,7 +139,7 @@
     .flex-box > div {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: baseline;
     }
 
     .sender-info {
@@ -252,10 +252,14 @@
         }
         .flex-box {
             display: block;
+            align-items: baseline;
+
         }
 
         .flex-box > div {
             display: block;
+            align-items: baseline;
+
         }
 
     }
@@ -274,10 +278,13 @@
 
         .flex-box {
             display: block;
+            align-items: baseline;
+
         }
 
         .flex-box > div {
             display: block;
+            align-items: baseline;
         }
 
         h2{

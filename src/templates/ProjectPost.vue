@@ -5,6 +5,11 @@
             <div class="container">
 
                 <div class="project-header">
+
+                    <div>
+                        <g-image v-html="$page.post.thumbnail"/>
+                    </div>
+
                     <h1 class="project-title" v-html="$page.post.title"/>
                     <h2 class="project-title" v-html="$page.post.style"/>
                     <div class="project-info">

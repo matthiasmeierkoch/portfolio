@@ -6,7 +6,10 @@
 
 @import url("https://use.typekit.net/kyh3mvv.css");
 
-
+@font-face {
+	font-family: "Suisse Neue";
+	src: url(../assets/SuisseNeue-Medium-WebS.woff);
+}
 
 code[class*="language-"],
 pre[class*="language-"] {

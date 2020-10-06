@@ -35,12 +35,13 @@ export default {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 0;
     margin: 0 0 2rem 0;
-    font-family: calluna, serif;
+    font-family: "Suisse Neue", serif;
     font-weight: 400;
     font-style: normal;
+    color: #111111;
 }
 .hero-title p,
 .hero-subtitle p {
