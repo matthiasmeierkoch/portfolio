@@ -27,7 +27,6 @@ export default {
 <style>
 .hero {
     text-align: left;
-    max-width: 1200px;
     max-width: 100%;
     padding: 3rem 0 4rem 0;
     line-height: 4.2rem;
@@ -75,8 +74,8 @@ export default {
         font-size: 1.3125rem;
     }
     .hero-title{
-        font-size: 2.35rem;
-        line-height: 3.35rem;
+        font-size: 1.8rem;
+        line-height: 2.75rem;
         width: 100%;
         margin-bottom: -1rem;
     }
