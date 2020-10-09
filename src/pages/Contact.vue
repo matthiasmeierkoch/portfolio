@@ -4,7 +4,7 @@
             <div class="contact-header">
                 <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                     data-sal-easing="ease-out-expo">Über mich...</h2>
-                <div class="flex-box" >
+                <div class="flex-box">
                     <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                          data-sal-easing="ease-out-expo">
                         <h3>...als Designer</h3>
@@ -56,6 +56,14 @@
                                 target="_blank">Unsplash</a>.
                         </p>
                     </div>
+                </div>
+
+                <br>
+                <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                     data-sal-easing="ease-out-expo">
+                    <h3>
+                        Meinen Lebenslauf finden Sie hier: <a href="uploads/Résumé_Public.pdf">Résume</a>
+                    </h3>
                 </div>
 
                 <h2 class="contact__content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
@@ -247,9 +255,10 @@
             margin-top: 4rem;
         }
 
-        .container{
+        .container {
             max-width: 68ch;
         }
+
         .flex-box {
             display: block;
             align-items: baseline;
@@ -287,7 +296,7 @@
             align-items: baseline;
         }
 
-        h2{
+        h2 {
             margin-top: 0;
         }
     }
