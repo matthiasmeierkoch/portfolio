@@ -62,7 +62,7 @@
                 <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                      data-sal-easing="ease-out-expo">
                     <h3>
-                        Meinen Lebenslauf finden Sie hier: <a href="static/Résumé_Public.pdf">Résume</a>
+                        Meinen Lebenslauf finden Sie hier: <a href="uploads/Résumé_Public.pdf.pdf" target="_blank">Résumé</a>
                     </h3>
                 </div>
 
