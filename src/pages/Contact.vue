@@ -37,21 +37,21 @@
                         <p>
                             Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik. In meiner
                             Freizeit
-                            finde ich das vorallem in Museen, beim Fotografieren und im Alltag mit Möbel, alten
+                            finde ich dies vor allem in Museen, beim Fotografieren und im Alltag mit Möbel, alten
                             Zweiräder
                             (mit
                             und ohne Motor), Kaffemachienen und Uhren.
                         </p>
                         <p>
-                            Meinen Ausgleich zur Arbeit und dem Design finde ich hauptsächlich beim Sport. Zurzeit
-                            trainiere
-                            ich
-                            Triathlon, im Fitness und Yoga.
+                            Den Ausgleich zu meiner Arbeit und Design finde ich hauptsächlich beim Sport, der schon
+                            immer eine wichtige Rolle in meinem Leben spielte. Zurzeit trainiere ich Triathlon, im
+                            Fitness und mache Yoga.
                         </p>
                         <p>
-                            In den Ferien verbinde ich meine Leidenschaft des Fotografieren, mit dem Reisen, Surfen oder
+                            Meine Ferien verbinde ich am liebsten damit meine Leidenschaft des Fotografieren, mit dem
+                            Reisen, Surfen oder
                             dem
-                            Skifahren. Einige meiner Bilder veröffentliche ich auf <a
+                            Skifahren zu kombinieren. Einige meiner Bilder veröffentliche ich auf <a
                                 href=https://unsplash.com/@matthiasmeierkoch
                                 target="_blank">Unsplash</a>.
                         </p>
@@ -61,8 +61,8 @@
                 <br>
                 <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                      data-sal-easing="ease-out-expo">
-                    <h3>
-                        Meinen Lebenslauf finden Sie hier: <a href="uploads/Résumé_Public.pdf.pdf" target="_blank">Résumé</a>
+                    <h3>Meinen Lebenslauf finden Sie hier:
+                        <g-link href="/matthias_koch_resume.pdf" target="_blank">Résumé</g-link>
                     </h3>
                 </div>
 
