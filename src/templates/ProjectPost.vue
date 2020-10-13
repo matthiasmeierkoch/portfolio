@@ -141,6 +141,10 @@
         padding: 20vh 0 4rem 0;
     }
 
+    iframe {
+        max-width: 100%;
+    }
+
     .project-title {
         font-size: 3.5rem;
         font-weight: 700;
@@ -215,6 +219,7 @@
         min-width: calc(100vw - 4rem);
         margin-top: 2rem;
         margin-bottom: 3rem;
+        max-width: 100%;
 
     }
 
@@ -259,6 +264,8 @@
         .content >>> iframe {
             min-width: calc(100vw - 12rem);
             margin-left: -9rem;
+            max-width: 100%;
+
         }
     }
 
@@ -266,6 +273,8 @@
         .content >>> iframe {
             min-width: calc(1200px - 12rem);
             margin-left: -9rem;
+            max-width: 100%;
+
         }
     }
 
