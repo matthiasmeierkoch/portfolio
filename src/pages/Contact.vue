@@ -300,6 +300,15 @@
             align-items: baseline;
 
         }
+        .contact-header {
+            margin: auto;
+            font-min-size: 1rem;
+            font-size: 2vw;
+        }
+
+        h2{
+            font-size:calc(14px + 1.5vw);
+        }
 
     }
 
@@ -328,6 +337,8 @@
 
         h2 {
             margin-top: 0;
+            font-size:calc(12px + 1.4vw);
+
         }
     }
 </style>
