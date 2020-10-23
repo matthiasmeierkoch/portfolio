@@ -57,15 +57,15 @@
                         </p>
                     </div>
                 </div>
-
-                <br>
-                <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                <hr>
+                <div class="resume" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                      data-sal-easing="ease-out-expo">
                     <h3>Meinen Lebenslauf finden Sie hier:
                         <g-link href="/matthias_koch_resume.pdf" target="_blank">Résumé</g-link>
                     </h3>
                 </div>
 
+                <hr>
                 <h2 class="contact__content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                     data-sal-easing="ease-out-expo">Möchtest du dich mit mir in Kontakt setzten?</h2>
                 <div class="flex-box" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
@@ -84,32 +84,8 @@
                          data-sal-easing="ease-out-expo">
                         <g-image src="../../uploads/matthiaskoch.jpg"></g-image>
                     </div>
-
                 </div>
-
             </div>
-            <!--            <form class="contact-form" name="contact">
-
-                            <div class="sender-info">
-                                <div>
-                                    <label for="name" class="label">Your name</label>
-                                    <input type="text" name="name"/>
-                                </div>
-                                <div>
-                                    <label for="email" class="label">Your email</label>
-                                    <input type="email" name="email"/>
-                                </div>
-                            </div>
-
-                            <div class="message">
-                                <label for="message" class="label">Message</label>
-                                <textarea name="message"></textarea>
-                            </div>
-
-                            <button class="button">Submit form</button>
-
-                        </form>-->
-
         </div>
     </Layout>
 </template>
@@ -138,6 +114,11 @@
         padding: 0;
     }
 
+    hr{
+        border: 0.75px solid #999999;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
 
     .flex-box {
         display: flex;
@@ -148,6 +129,14 @@
         display: flex;
         flex-direction: column;
         align-items: baseline;
+        margin-bottom: 3rem;
+    }
+
+    .resume{
+        margin-top: 2rem;
+        color: #999999;
+        max-width: 50%;
+        overflow: hidden;
     }
 
     .sender-info {

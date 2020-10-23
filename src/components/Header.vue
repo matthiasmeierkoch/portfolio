@@ -1,28 +1,34 @@
 <template>
     <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
         <div class="container">
-            <div class="left">
-                <g-link :to="{ name: 'home' }" class="home-link">Matthias Koch</g-link>
+            <div class="left hide">
+                <g-link :to="{ name: 'home' }" class="home-link"><span class="text">Matthias Koch</span></g-link>
             </div>
-            <nav class="nav right">
-                <g-link class="nav__link" to="/" exact>Work</g-link>
-                <!--
-                                <g-link class="nav__link" to="https://lab.matthiasko.ch" exact>Lab</g-link>
-                -->
-                <g-link class="nav__link" to="/contact">Credo</g-link>
+            <nav class="nav right hide">
+                <g-link class="nav__link" to="/" exact><span class="text">Work</span></g-link>
+                <g-link class="nav__link" to="https://lab.matthiasko.ch" exact><span class="text">Lab</span></g-link>
+                <g-link class="nav__link" to="/contact"><span class="text">Credo</span></g-link>
             </nav>
         </div>
     </header>
 </template>
 
 <script>
+
+    import {gsap} from "gsap"
+    import sal from "sal.js";
+
     export default {
         data() {
             return {
                 logo: require("../../static/logo.svg"),
                 settings: require("../../data/theme.json")
             }
-        }
+        },
+        mounted() {
+            const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
+            tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
+        },
     }
 </script>
 
@@ -63,6 +69,11 @@
     .left {
         font-size: 1.25rem;
         font-weight: 600;
+        color: #999999;
+    }
+
+    .right{
+        display: flex;
     }
 
     .site-name {
@@ -71,6 +82,16 @@
         letter-spacing: 0.05em;
         text-decoration: none;
         text-transform: uppercase;
+    }
+
+    .hide {
+        background: #ffffff;
+        overflow: hidden;
+    }
+
+    .hide span {
+        transform: translateY(110%);
+        display: block;
     }
 
     .nav::before {
@@ -87,6 +108,7 @@
         border-bottom: 4px solid;
         border-color: transparent;
         transition: border 0.15s;
+        color: #999999;
     }
 
     .nav > *:last-of-type {
@@ -94,12 +116,23 @@
     }
 
     .nav > *:hover {
-        border-color: #BEBEBE;
     }
 
 
     .nav > .active {
-        border-color: #000;
-        text-decoration: none
+        text-decoration: none;
+        color: #111111;
+    }
+
+    @media (max-width: 520px) {
+
+        .nav > * {
+            font-size: 1rem;
+            margin-right: 2rem;
+        }
+
+        .left {
+            font-size: 1rem;
+        }
     }
 </style>

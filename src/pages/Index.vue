@@ -1,9 +1,8 @@
 <template>
   <Layout>
     <div class="container">
-      <Hero data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-            data-sal-easing="ease-out-expo" />
-      <ProjectsGrid :projects="$page.projects.edges" />
+      <Hero/>
+      <ProjectsGrid :projects="$page.projects.edges"/>
     </div>
   </Layout>
 </template>
@@ -46,7 +45,7 @@ export default {
   },
   mounted() {
     this.$nextTick(() => sal({
-      threshold: 0.2,
+      threshold: 0.05,
     }));
   }
 }

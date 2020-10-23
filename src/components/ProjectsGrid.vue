@@ -1,7 +1,7 @@
 <template>
-    <div class="projects">
-        <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-             data-sal-easing="ease-out-expo" class="project" v-for="item in projects" :key="item.node.id">
+    <div class="projects" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+         data-sal-easing="ease-out-expo">
+        <div class="project" v-for="item in projects" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
                 <g-image
                         :src="item.node.thumbnail"
@@ -28,7 +28,9 @@
             }
         },
         mounted() {
-            this.$nextTick(() => sal());
+            this.$nextTick(() => sal({
+                threshold: 0.001,
+            }));
         }
     }
 </script>

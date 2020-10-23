@@ -70,7 +70,7 @@ h1 {
 
 @media (min-width: 860px) {
   .container {
-    padding: 0 6rem;
+    padding: 0 5vw;
   }
 }
 

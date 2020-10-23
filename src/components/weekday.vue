@@ -1,8 +1,7 @@
 <template>
-    <div class="weekday">
-    <p class="">Happy {{ weekday }} </p>
-    </div>
-
+        <div class="weekday">
+            <p class="">Happy {{ weekday }} </p>
+        </div>
 </template>
 
 <script>
@@ -12,15 +11,14 @@
 
     export default {
         data() {
-            return { weekday: weekdayName}
+            return {weekday: weekdayName}
         }
     }
 </script>
 
 
 <style>
-
-    .weekday{
+    .weekday {
         text-align: right;
     }
 </style>

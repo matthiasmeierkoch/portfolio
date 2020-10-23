@@ -265,7 +265,6 @@
             min-width: calc(100vw - 12rem);
             margin-left: -9rem;
             max-width: 100%;
-
         }
     }
 
@@ -274,7 +273,6 @@
             min-width: calc(1200px - 12rem);
             margin-left: -9rem;
             max-width: 100%;
-
         }
     }
 
