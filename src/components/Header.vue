@@ -74,6 +74,7 @@
 
     .right{
         display: flex;
+        align-items: baseline;
     }
 
     .site-name {
