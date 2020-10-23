@@ -3,8 +3,16 @@
 
     <div class="container">
       <div class="journal-hero">
-        <h1 class="journal-header">
-          a wise person once said...
+        <h1 class="hide">
+          <span class="text">Sometimes&nbsp;</span>
+          <span class="text">I&nbsp;</span>
+          <span class="text">write&nbsp;</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">about&nbsp;</span>
+          <span class="text">things&nbsp;</span>
+          <span class="text">I&nbsp;</span>
+          <span class="text">did.</span>
         </h1>
       </div>
     </div>
@@ -40,7 +48,13 @@ query Journal {
 </page-query>
 
 <script>
-export default {
+  import {gsap} from "gsap"
+
+  export default {
+    mounted() {
+      const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
+      tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
+    },
 }
 </script>
 
@@ -51,13 +65,33 @@ export default {
 .journal-hero {
   padding: 4rem 0;
   text-align: center;
-  color: var(--color-base-1);
+  color: #111111;
+}
+
+.hide {
+  background: #ffffff;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hide span {
+  transform: translateY(110%);
+  display: block;
+  vertical-align: top;
 }
 .journal-header {
+  max-width: 700px;
   font-size: 3rem;
   font-weight: 700;
   padding: 0;
   margin: 0;
+  text-align: left;
+  color: #999999;
 }
 .journal-post {
   display: block;

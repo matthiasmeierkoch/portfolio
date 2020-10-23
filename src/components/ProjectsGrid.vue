@@ -38,7 +38,7 @@
     .projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 4rem;
+        grid-gap: 5rem;
         font-family: sofia-pro, sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -85,10 +85,8 @@
 
     .project:hover .thumbnail {
         transform: scale(1.02);
-        box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 20px 40px -20px rgba(0, 0, 0, 0.5);
     }
-
-
 
     @media (min-width: 580px) {
         .project {

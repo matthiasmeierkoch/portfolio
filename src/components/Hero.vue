@@ -5,15 +5,15 @@
                 </h1>-->
         <div class="hero-text">
             <h1 class="hide">
-                <span class="text">I​&nbsp;</span>
-                <span class="text">design​&nbsp;</span>
-                <span class="text">human&nbsp;</span>
-                <span class="text">centered​&nbsp;</span>
+                <span class="text">fascinating&nbsp;</span>
+                <span class="text">user&nbsp;</span>
+                <span class="text">experiences&nbsp;</span>
             </h1>
             <h1 class="hide">
-                <span class="text">experiences&nbsp;</span>
-                <span class="text">that&nbsp;</span>
-                <span class="text">fascinate.</span>
+                <span class="text">through&nbsp;</span>
+                <span class="text">digital&nbsp;</span>
+                <span class="text">product&nbsp;</span>
+                <span class="text">design.</span>
             </h1>
         </div>
         <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"

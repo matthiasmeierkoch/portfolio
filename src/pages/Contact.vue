@@ -2,8 +2,25 @@
     <Layout>
         <div class="container">
             <div class="contact-header">
-                <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                    data-sal-easing="ease-out-expo">Über mich...</h2>
+                <h2 class="hide">
+                    <span class="text">Als&nbsp;</span>
+                    <span class="text">Interaction&nbsp;</span>
+                    <span class="text">Designer&nbsp;</span>
+                    <span class="text">gestalte&nbsp;</span>
+                    <span class="text">ich&nbsp;</span>
+                </h2>
+                <h2 class="hide">
+                    <span class="text">digitale&nbsp;</span>
+                    <span class="text">Produkte&nbsp;</span>
+                    <span class="text">mit&nbsp;</span>
+                    <span class="text">Menschen&nbsp;</span>
+                    <span class="text">im&nbsp;</span>
+                    <span class="text">Fokus.&nbsp;</span>
+                </h2>
+            </div>
+
+                <h2>Über mich</h2>
+
                 <div class="flex-box">
                     <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                          data-sal-easing="ease-out-expo">
@@ -92,13 +109,19 @@
 
 <script>
     import sal from 'sal.js';
+    import {gsap} from "gsap"
+
 
     export default {
         mounted() {
             this.$nextTick(() => sal({
                 threshold: 0.25,
             }));
-        }
+        },
+        methods() {
+            const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
+            tl.to('.text', {y: '0%', duration: .5, stagger: 0.15});
+        },
     }
 
 </script>
@@ -112,6 +135,23 @@
         font-size: 4rem;
         margin: 0 0 4rem 0;
         padding: 0;
+    }
+
+    .hide {
+        background: #ffffff;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .hide span {
+        transform: translateY(110%);
+        display: block;
+        vertical-align: top;
     }
 
     hr{
@@ -137,6 +177,7 @@
         color: #999999;
         overflow: hidden;
     }
+
 
     .sender-info {
         display: flex;
@@ -197,6 +238,7 @@
 
     .contact-header {
         margin: auto;
+        font-size: 1.75rem;
     }
 
     h1 {
