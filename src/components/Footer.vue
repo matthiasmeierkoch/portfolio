@@ -1,11 +1,13 @@
 <template>
     <footer class="footer">
-        <div class="item1">
-            <span v-html="settings.footer"></span>
-        </div>
+        <div class="container">
+            <div class="item1">
+                <span v-html="settings.footer"></span>
+            </div>
 
-        <div class="item2">
-            <weekday/>
+            <div class="item2">
+                <weekday/>
+            </div>
         </div>
     </footer>
 </template>
@@ -26,30 +28,33 @@
 </script>
 
 <style scoped>
-    .footer {
+    .container {
         display: flex;
+        align-content: baseline;
         justify-content: space-between;
-        font-size: 1rem;
-        padding: 6rem 6rem;
-        max-width: 1200px;
-        margin: auto;
+        padding: 0 5vw;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        color: #999999;
     }
 
     .item1 {
         width: 100%;
         margin: auto;
+        align-content: space-between;
     }
 
-    .item2{
-        width:100%;
+    .item2 {
+        width: 100%;
         text-align: right;
         margin: auto;
     }
 
     @media (max-width: 860px) {
-        .footer {
-            padding: 4rem 1rem;
-            align-content: center;
+        .container {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            align-content: baseline;
         }
     }
 
