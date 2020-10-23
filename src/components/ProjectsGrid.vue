@@ -1,6 +1,5 @@
 <template>
-    <div class="projects" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-         data-sal-easing="ease-out-expo">
+    <div class="projects">
         <div class="project" v-for="item in projects" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
                 <g-image
