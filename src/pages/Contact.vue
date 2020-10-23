@@ -337,7 +337,7 @@
 
         h2 {
             margin-top: 0;
-            font-size:calc(12px + 1.4vw);
+            font-size:calc(12px + 1.5vw);
 
         }
     }

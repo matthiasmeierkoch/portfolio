@@ -110,8 +110,8 @@
     @media (max-width: 520px) {
         .hero {
             max-width: 100%;
-            font-size: 0.8rem;
-            line-height: 2.75rem;
+            font-size: 0.7rem;
+            line-height: 2.5rem;
             margin-top: 2.75rem;
         }
 
