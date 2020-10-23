@@ -135,7 +135,6 @@
     .resume{
         margin-top: 2rem;
         color: #999999;
-        max-width: 50%;
         overflow: hidden;
     }
 
