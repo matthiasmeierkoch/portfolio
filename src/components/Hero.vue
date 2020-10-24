@@ -4,17 +4,27 @@
                     data-sal-easing="ease-out-expo" class="hero-title" v-html="settings.hero_title">
                 </h1>-->
         <div class="hero-text">
-            <h1 class="hide">
+            <h2 class="hide">
                 <span class="text">fascinating&nbsp;</span>
+            </h2>
+            <h2 class="hide">
                 <span class="text">user&nbsp;</span>
+            </h2>
+            <h2 class="hide">
                 <span class="text">experiences&nbsp;</span>
-            </h1>
-            <h1 class="hide">
+            </h2>
+            <h2 class="hide">
                 <span class="text">through&nbsp;</span>
+            </h2>
+            <h2 class="hide">
                 <span class="text">digital&nbsp;</span>
+            </h2>
+            <h2 class="hide">
                 <span class="text">product&nbsp;</span>
+            </h2>
+            <h2 class="hide">
                 <span class="text">design.</span>
-            </h1>
+            </h2>
         </div>
         <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
             data-sal-easing="ease-out-expo" class="hero-subtitle" v-html="settings.hero_subtitle"/>
@@ -35,20 +45,28 @@
             this.$nextTick(() => sal());
 
             const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
-                tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
+            tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
         },
     }
 </script>
 
 <style>
+
+    .hero-text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-content: baseline;
+
+    }
     .hero {
         text-align: left;
         max-width: 100%;
         background: white;
         margin-top: 4rem;
         margin-bottom: 6rem;
-        line-height: 5.4rem;
-        font-size: 2rem;
+        line-height: 5.75rem;
+        font-size: 2.75rem;
     }
 
     .hide {
@@ -96,30 +114,17 @@
     @media (max-width: 919px) {
         .hero {
             max-width: 100%;
-            font-size: 3vw;
-            line-height: calc(3vw + 3rem);
-        }
-
-        .hero-title {
-            font-size: 3rem;
-            line-height: 4.4rem;
-            width: 100%;
+            font-size: 2rem;
+            line-height: 4.25rem;
         }
     }
 
     @media (max-width: 520px) {
         .hero {
             max-width: 100%;
-            font-size: 0.7rem;
-            line-height: 2.5rem;
+            font-size: 1.5rem;
+            line-height: 3rem;
             margin-top: 2.75rem;
-        }
-
-        .hero-title {
-            font-size: 1rem;
-            line-height: 2.75rem;
-            width: 100%;
-            margin-bottom: -1rem;
         }
     }
 </style>
