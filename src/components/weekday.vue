@@ -1,7 +1,7 @@
 <template>
-        <div class="weekday">
-            <p class="">Happy {{ weekday }} </p>
-        </div>
+    <div class="weekday">
+        <p class="">Happy {{ weekday }} </p>
+    </div>
 </template>
 
 <script>
@@ -19,6 +19,13 @@
 
 <style>
     .weekday {
-        text-align: right;
+        text-align: left;
+    }
+
+    @media (max-width: 520px) {
+        .weekday {
+            width: 100%;
+            text-align: center;
+        }
     }
 </style>

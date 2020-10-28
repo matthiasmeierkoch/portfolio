@@ -2,11 +2,11 @@
     <footer class="footer">
         <div class="container">
             <div class="item1">
-                <span v-html="settings.footer"></span>
+                <weekday/>
             </div>
 
             <div class="item2">
-                <weekday/>
+                <span v-html="settings.footer"></span>
             </div>
         </div>
     </footer>
@@ -55,6 +55,19 @@
             padding: 1rem;
             margin-bottom: 1rem;
             align-content: baseline;
+        }
+
+        @media (max-width: 520px) {
+            .container {
+                width: 100%;
+                flex-wrap: wrap;
+                text-align: center;
+            }
+
+            .item2{
+                text-align: center;
+                margin: 1rem 0 0 0;
+            }
         }
     }
 
