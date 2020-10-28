@@ -53,7 +53,7 @@ query Journal {
   export default {
     mounted() {
       const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
-      tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
+      tl.to('.text', {y: '0%', duration: .5, stagger: 0.15});
     },
 }
 </script>
