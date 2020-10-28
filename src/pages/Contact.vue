@@ -37,12 +37,10 @@
                 </h2>
             </div>
 
-            <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                 data-sal-easing="ease-out-expo">
+            <div>
                 <h2>Über mich</h2>
                 <div class="flex-box">
-                    <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                         data-sal-easing="ease-out-expo">
+                    <div>
                         <h3>...als Designer</h3>
                         <p>
                             Mein Name ist Matthias Koch. Ich lebe und arbeite in Zürich als UX / UI Designer.
@@ -67,8 +65,7 @@
                         </p>
                     </div>
 
-                    <div data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                         data-sal-easing="ease-out-expo">
+                    <div>
                         <h3>...als Person</h3>
                         <p>
                             Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik. In meiner
@@ -105,15 +102,19 @@
             <hr>
             <h2 class="contact__content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                 data-sal-easing="ease-out-expo">Möchtest du dich mit mir in Kontakt setzten?</h2>
-            <div class="flex-box" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                 data-sal-easing="ease-out-expo">
+            <div class="flex-box">
                 <div class="contact__links">
-                    <p><b>Mail:</b> hello(at)matthiasko.ch</p>
-                    <p><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
+                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                       data-sal-easing="ease-out-expo"><b>Mail:</b> hello(at)matthiasko.ch</p>
+                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                       data-sal-easing="ease-out-expo"><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
                           target="_blank"><b>LinkedIn</b></a></p>
-                    <p><a href="https://github.com/matthiasmeierkoch/" target="_blank"><b>GitHub</b></a></p>
-                    <p><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a></p>
-                    <p><a href="https://instagram.com/matthiasmeierkoch" target="_blank"><b>Instagram</b></a>
+                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                       data-sal-easing="ease-out-expo"><a href="https://github.com/matthiasmeierkoch/" target="_blank"><b>GitHub</b></a></p>
+                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                       data-sal-easing="ease-out-expo"><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a></p>
+                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                       data-sal-easing="ease-out-expo"><a href="https://instagram.com/matthiasmeierkoch" target="_blank"><b>Instagram</b></a>
                     </p>
                 </div>
 
