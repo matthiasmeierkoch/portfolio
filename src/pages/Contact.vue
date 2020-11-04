@@ -43,63 +43,53 @@
                     <div>
                         <h3>...als Designer</h3>
                         <p>
-                            Mein Name ist Matthias Koch. Ich lebe und arbeite in Zürich als UX / UI Designer.
+                            Mein Name ist Matthias Koch. Ich lebe und arbeite in Zürich als User Experience und User
+                            Interface Designer.
                         </p>
                         <p>
                             Nach einer Berufslehre als Fotofachmann habe ich eine Weiterbildung zum
-                            Kommunikationsdesigner
-                            mit
-                            Vertiefung Interaction Design im Sommer 2020 abgeschlossen. Gleichzeitig konnte ich
-                            Berufserfahrung
-                            im Agenturumfeld und auf Kundenseite erlangen.
+                            Kommunikationsdesigner mit Vertiefung Interaction Design im Sommer 2020 abgeschlossen.
+                            Gleichzeitig konnte ich Berufserfahrung im Agenturumfeld und auf Kundenseite erlangen.
                         </p>
                         <p>
                             In meinem Alltag beschäftige ich mich mit dem Zusammenhang von visueller Gestaltung,
-                            Psychologie
-                            und Technik. Dabei setzte ich von Anfang an den Menschen in den Fokus.
+                            Psychologie und Technik. Dabei setzte ich von Anfang an den Menschen in den Fokus.
                         </p>
                         <p>
-                            Themen die mich besonders interessieren, jedoch in meinem jetzigen Berufsalltag etwas zu
-                            kurz
-                            kommen sind Daten Visualisierungen, Markenführung (Branding) und Werbung.
+                            Themen die mich besonders interessieren sind Daten Visualisierungen, Markenführung (Branding) und Werbung.
                         </p>
                     </div>
 
                     <div>
                         <h3>...als Person</h3>
                         <p>
-                            Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik. In meiner
-                            Freizeit
-                            finde ich dies vor allem in Museen, beim Fotografieren und im Alltag mit Möbel, alten
-                            Zweiräder
-                            (mit
-                            und ohne Motor), Kaffemachienen und Uhren.
+                            Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik.
+                            Deshalb verbringe ich regnerische Sonntage am liebsten in Museen. An schönen Tagen bin ich
+                            am liebsten von Früh bis Spät unterwegs. Im Sommer am liebsten in der Nähe vom Wasser und
+                            im Winter am liebsten in den Bergen am Skifahren.
                         </p>
                         <p>
-                            Den Ausgleich zu meiner Arbeit und Design finde ich hauptsächlich beim Sport, der schon
-                            immer eine wichtige Rolle in meinem Leben spielte. Zurzeit trainiere ich Triathlon, im
-                            Fitness und mache Yoga.
+                            Den Ausgleich zu meinem Alltag finde ich beim Sport, der schon immer eine wichtige Rolle in
+                            meinem Leben spielte, oder auf Reisen.
                         </p>
                         <p>
-                            Meine Ferien verbinde ich am liebsten damit meine Leidenschaft des Fotografieren, mit dem
-                            Reisen, Surfen oder
-                            dem
-                            Skifahren zu kombinieren. Einige meiner Bilder veröffentliche ich auf <a
+                            Meinen Ferien verbinde ich am liebsten damit neue Kulturen zu entdecken, Surfen zu gehen und
+                            diesen Tätigkeiten zu Fotografieren. Einige meiner Bilder veröffentliche ich auf <a
                                 href=https://unsplash.com/@matthiasmeierkoch
                                 target="_blank">Unsplash</a>.
                         </p>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="resume" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                 data-sal-easing="ease-out-expo">
-                <h3>Meinen Lebenslauf finden Sie hier:
+
+            <div class="resume">
+                <h3 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                    data-sal-easing="ease-out-expo">
                     <g-link href="/matthias_koch_resume.pdf" target="_blank">Résumé</g-link>
                 </h3>
             </div>
 
-            <hr>
+
             <h2 class="contact__content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                 data-sal-easing="ease-out-expo">Möchtest du dich mit mir in Kontakt setzten?</h2>
             <div class="flex-box">
@@ -108,13 +98,16 @@
                        data-sal-easing="ease-out-expo"><b>Mail:</b> hello(at)matthiasko.ch</p>
                     <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
                        data-sal-easing="ease-out-expo"><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
-                          target="_blank"><b>LinkedIn</b></a></p>
+                                                          target="_blank"><b>LinkedIn</b></a></p>
                     <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://github.com/matthiasmeierkoch/" target="_blank"><b>GitHub</b></a></p>
+                       data-sal-easing="ease-out-expo"><a href="https://github.com/matthiasmeierkoch/"
+                                                          target="_blank"><b>GitHub</b></a></p>
                     <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a></p>
+                       data-sal-easing="ease-out-expo"><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a>
+                    </p>
                     <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://instagram.com/matthiasmeierkoch" target="_blank"><b>Instagram</b></a>
+                       data-sal-easing="ease-out-expo"><a href="https://instagram.com/matthiasmeierkoch"
+                                                          target="_blank"><b>Instagram</b></a>
                     </p>
                 </div>
 
@@ -201,10 +194,23 @@
 
     .resume {
         margin-top: 2rem;
-        color: #999999;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 3rem;
+        padding-right: 5rem;
+        color: #ffffff;
+        font-size: 3rem;
+        font-family: "Suisse Neue";
+        text-align: center;
         overflow: hidden;
+        background-image: url("../../uploads/Cover.png");
+        background-size: cover;
     }
 
+    .resume a {
+        text-decoration-thickness: .25px;
+        text-underline-offset: 8px;
+    }
 
     .sender-info {
         display: flex;
@@ -338,6 +344,12 @@
             font-size: calc(18px + 1.5vw);
         }
 
+        .resume {
+            font-size: 2rem;
+            text-align: center;
+            padding-right: 2rem;
+        }
+
     }
 
 
@@ -367,6 +379,12 @@
             margin-top: 0;
             font-size: 1.75rem;
 
+        }
+
+        .resume {
+            font-size: 1.5rem;
+            text-align: center;
+            padding-right: 2rem;
         }
     }
 </style>

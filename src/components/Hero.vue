@@ -17,15 +17,18 @@
                 <span class="text">through&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">digital&nbsp;</span>
+                <span class="text">strategy&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">product&nbsp;</span>
+                <span class="text">and&nbsp;</span>
             </h2>
             <h2 class="hide">
                 <span class="text">design.</span>
             </h2>
         </div>
+<!--        <div class="hero-bg">
+            <g-image src="../../uploads/map.png"></g-image>
+        </div>-->
         <h2 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
             data-sal-easing="ease-out-expo" class="hero-subtitle" v-html="settings.hero_subtitle"/>
     </div>
@@ -57,12 +60,22 @@
         flex-wrap: wrap;
         justify-content: left;
         align-content: baseline;
+        color: #111111;
 
     }
+
+    .hero-bg{
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: -10;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    }
+
     .hero {
         text-align: left;
         max-width: 100%;
-        background: white;
         margin-top: 4rem;
         margin-bottom: 6rem;
         line-height: 5.75rem;
@@ -70,7 +83,6 @@
     }
 
     .hide {
-        background: #ffffff;
         overflow: hidden;
         display: flex;
         flex-wrap: wrap;

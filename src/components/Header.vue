@@ -7,7 +7,7 @@
             <nav class="nav right hide">
                 <g-link class="nav__link" to="/" exact><span class="text">Work</span></g-link>
                 <!-- <g-link class="nav__link" to="/journal" exact><span class="text">Blog</span></g-link> -->
-                <g-link class="nav__link" to="https://lab.matthiasko.ch" exact><span class="text">Lab</span></g-link>
+                <!--<g-link class="nav__link" to="https://lab.matthiasko.ch" exact><span class="text">Lab</span></g-link>-->
                 <g-link class="nav__link" to="/contact"><span class="text">Credo</span></g-link>
             </nav>
         </div>
@@ -38,7 +38,7 @@
         position: relative;
         height: 6rem;
         z-index: 10;
-        background-color: #ffffff;
+        background: rgb(255,255,255);
         font-family: sofia-pro, sans-serif;
         font-weight: 400;
         font-size: 1rem;
@@ -73,7 +73,7 @@
         color: #999999;
     }
 
-    .right{
+    .right {
         display: flex;
         align-items: baseline;
     }
@@ -87,7 +87,6 @@
     }
 
     .hide {
-        background: #ffffff;
         overflow: hidden;
     }
 
