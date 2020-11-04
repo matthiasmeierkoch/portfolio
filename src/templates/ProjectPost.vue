@@ -135,6 +135,8 @@
     .container {
         font-family: sofia-pro, sans-serif;
         max-width: 900px;
+        hyphens: auto;
+
     }
 
     .project-header {

@@ -56,7 +56,8 @@
                             Psychologie und Technik. Dabei setzte ich von Anfang an den Menschen in den Fokus.
                         </p>
                         <p>
-                            Themen die mich besonders interessieren sind Daten Visualisierungen, Markenführung (Branding) und Werbung.
+                            Themen die mich besonders interessieren sind Daten Visualisierungen, Markenführung
+                            (Branding) und Werbung.
                         </p>
                     </div>
 
@@ -64,7 +65,10 @@
                         <h3>...als Person</h3>
                         <p>
                             Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik.
-                            Deshalb verbringe ich regnerische Sonntage am liebsten in Museen. An schönen Tagen bin ich
+                            Deshalb verbringe ich regnerische Sonntage am liebsten in Museen.
+                        </p>
+                        <p>
+                            An schönen Tagen bin ich
                             am liebsten von Früh bis Spät unterwegs. Im Sommer am liebsten in der Nähe vom Wasser und
                             im Winter am liebsten in den Bergen am Skifahren.
                         </p>
@@ -190,6 +194,7 @@
         flex-direction: column;
         align-items: baseline;
         margin-bottom: 3rem;
+        max-width: 50%;
     }
 
     .resume {
@@ -283,6 +288,7 @@
         margin: auto;
         margin-top: 1.5rem;
         margin-left: 0;
+        hyphens: auto;
     }
 
     .contact__img {
@@ -331,6 +337,7 @@
         .flex-box > div {
             display: block;
             align-items: baseline;
+            max-width: 100%;
 
         }
 
