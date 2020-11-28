@@ -7,7 +7,7 @@
             <h2 class="hide">
                 <span class="text">fascinating&nbsp;</span>
             </h2>
-            <h2 class="hide">
+            <h2 class="hide"> 
                 <span class="text">user&nbsp;</span>
             </h2>
             <h2 class="hide">

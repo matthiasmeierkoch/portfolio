@@ -4,10 +4,13 @@
 
             <div class="container">
 
-                <div class="project-header">
-
-                    <div>
-                        <g-image v-html="$page.post.thumbnail"/>
+                <div class="projectHeader">
+                    <div v-for="item in projectHeader" :key="item.node.id">
+                        <g-image
+                                :src="item.node.thumbnail"
+                                :alt="item.node.title"
+                                class="thumbnail"
+                        />
                     </div>
 
                     <h1 class="project-title" v-html="$page.post.title"/>
@@ -71,11 +74,17 @@
     import sal from 'sal.js';
 
     export default {
+        props: {
+            project: {
+                type: Array,
+                required: true
+            }
+        },
         metaInfo() {
             return {
                 title: this.$page.post.title,
                 bodyAttrs: {
-                    style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`
+                    style: `background-color: ${this.$page.post.project_bg_color ? this.$page.post.project_bg_color : 'var(--color-base)'}; color: ${this.$page.post.project_fg_color ? this.$page.post.project_fg_color : 'var(--color-contrast)'}`,
                 }
             }
         },
@@ -139,7 +148,7 @@
 
     }
 
-    .project-header {
+    .projectHeader {
         padding: 20vh 0 4rem 0;
     }
 

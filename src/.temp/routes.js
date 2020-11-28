@@ -4,7 +4,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/journal/use-gridsome-vuejs/",
+    path: "/journal/text-reveal-animation/",
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
@@ -28,7 +28,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/journal/a-journal-entry/",
+    path: "/journal/camping-stroy/",
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {

@@ -18,7 +18,7 @@
               <span class="label">Time</span>
               <span>{{ $page.post.timeToRead }} min read</span>
             </div>
-          </div>          
+          </div>
         </div>
 
         <JournalContent :content="$page.post.content" />
@@ -78,4 +78,9 @@ export default {
 .journal-meta > div:last-of-type {
   margin: 0;
 }
+
+  h2{
+    margin-top: 2rem;
+  }
+
 </style>
