@@ -5,13 +5,6 @@
             <div class="container">
 
                 <div class="projectHeader">
-                    <div v-for="item in projectHeader" :key="item.node.id">
-                        <g-image
-                                :src="item.node.thumbnail"
-                                :alt="item.node.title"
-                                class="thumbnail"
-                        />
-                    </div>
 
                     <h1 class="project-title" v-html="$page.post.title"/>
                     <h2 class="project-title" v-html="$page.post.style"/>
@@ -75,10 +68,6 @@
 
     export default {
         props: {
-            project: {
-                type: Array,
-                required: true
-            }
         },
         metaInfo() {
             return {
