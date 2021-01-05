@@ -40,6 +40,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--contact-vue" */ "/Users/taakomah/Desktop/portfolio/src/pages/Contact.vue")
   },
   {
+    path: "/accou/",
+    component: () => import(/* webpackChunkName: "page--src--pages--accou-vue" */ "/Users/taakomah/Desktop/portfolio/src/pages/Accou.vue")
+  },
+  {
     name: "404",
     path: "/404/",
     component: () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/Users/taakomah/Desktop/portfolio/node_modules/gridsome/app/pages/404.vue")

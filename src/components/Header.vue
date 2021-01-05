@@ -40,7 +40,7 @@
         position: relative;
         height: 6rem;
         z-index: 10;
-        background: rgb(255,255,255);
+        background: #073655;
         font-family: sofia-pro, sans-serif;
         font-weight: 400;
         font-size: 1rem;
@@ -72,12 +72,13 @@
     .left {
         font-size: 1.25rem;
         font-weight: 600;
-        color: #999999;
+        color: #F8F8F8;
     }
 
     .right {
         display: flex;
         align-items: baseline;
+        color: #F8F8F8;
     }
 
     .site-name {
@@ -111,7 +112,7 @@
         border-bottom: 4px solid;
         border-color: transparent;
         transition: border 0.15s;
-        color: #999999;
+        color: #F8F8F8;
     }
 
     .nav > *:last-of-type {
@@ -123,8 +124,8 @@
 
 
     .nav > .active {
-        text-decoration: none;
-        color: #111111;
+        border-bottom: 2px solid #F8F8F8;
+        color: #F8F8F8;
     }
 
     @media (max-width: 520px) {

@@ -5,10 +5,11 @@ date: 2019-05-16
 categories:
 - UX Design
 - UI Design
+- Informationsarchitektur
 - Kundenprojekt
 credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>
-Projektart: Kundenprojekt
-project_bg_color: ''
+Projektart: 
+project_bg_color: '#073655'
 project_fg_color: ''
 
 ---
@@ -28,7 +29,12 @@ Die Webseite beginnt mit grossflächigen und emotionalen Bildern von Tieren dies
 Die Benutzer können mit dem «Haustier-Finder» nach den eigenen Präferenzen filtern um das passende Angebot des. Zurcher Tierschutz anzusehen.
 Weiter lebt der Zürcher Tierschutz von spenden, die Benutzer können im Spende Modul in einer Interaktiven Grafik sehen wie dass eine Spende den Zürcher Tierschutz unterstützt.
 
+<div class="small__right">
+
+</div>
+
 ![](/uploads/ZTS_Tiere.png)
+
 
 ![](/uploads/ZTS_Spende.png)
 

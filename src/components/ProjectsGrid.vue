@@ -1,5 +1,6 @@
 <template>
     <div class="projects">
+        <g-link to="/Accou/">Accou</g-link>
         <div class="project" v-for="item in projects" :key="item.node.id">
             <g-link :to="item.node.path" class="project-link">
                 <g-image
@@ -42,6 +43,7 @@
         font-family: sofia-pro, sans-serif;
         font-weight: 400;
         font-style: normal;
+
     }
 
     .project {
@@ -58,21 +60,25 @@
         object-fit: cover;
         transition: all 0.15s ease;
         border-radius: 1rem;
+        -webkit-box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.25);
         box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
     }
 
     .project-title {
-        font-size: 1.3125rem;
+        font-size: 2rem;
         color: var(--color-contrast);
         margin: 1.5rem 0 1rem 0;
         font-family: sofia-pro, sans-serif;
         font-weight: 700;
         font-style: normal;
+        color: #F8F8F8;
     }
 
     .categories {
         font-size: 1rem;
-        color: var(--color-contrast-1);
+        font-weight: normal;
+        color: #F8F8F8;
     }
 
     .category {
@@ -91,8 +97,9 @@
     @media (min-width: 580px) {
         .project {
         }
+
         .thumbnail {
-            height: 540px;
+            height: 624px;
         }
     }
 
@@ -100,6 +107,7 @@
         .project {
             grid-column: auto / span 1;
         }
+
         .thumbnail {
             width: 540px;
         }

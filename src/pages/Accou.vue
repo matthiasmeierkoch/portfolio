@@ -1,60 +1,55 @@
 <template>
     <Layout>
         <div class="project">
-            <div class="project__pattern">
-
-            </div>
-
-            <g-image src="/static/ZTS_Tiere.png"></g-image>
+            <div class="project__pattern"></div>
 
             <div class="container">
-
-                <div class="projectHeader">
-
-                    <h1 class="project-title" v-html="$page.post.title"/>
-                    <h2 class="project-title" v-html="$page.post.style"/>
-                    <div class="project-info">
-
-                        <div class="categories-container">
-                            <div class="categories">
-                                <span class="label"></span>
-                                <span
-                                        class="category"
-                                        v-for="(category, index) in $page.post.categories"
-                                        :key="index"
-                                        v-text="category"
-                                />
-                            </div>
-                        </div>
-
-                        <!--
-
-                        <div class="year-container">
-                            <span class="label">Jahr</span>
-                            <div v-html="$page.post.date"/>
-                        </div>
-
-
-                              <div class="credits-container">
-                                 <span class="label">Credits</span>
-                                 <div v-html="$page.post.credits"/>
-                             </div>
-
-
-                        <div class="Projektart-container">
-                            <span class="label"></span>
-                            <div v-html="$page.post.Projektart"/>
-                        </div>
-                        -->
-
-                    </div>
+                <div class="project__header">
+                    <h2 class="hide">
+                        <span class="text">Accou&nbsp;</span>
+                    </h2>
+                    <h2 class="hide">
+                        <span class="text">–&nbsp;</span>
+                    </h2>
+                    <h2 class="hide">
+                        <span class="text">Accountverwaltung</span>
+                    </h2>
                 </div>
 
-
-                <div v-html="$page.post.content" class="content"/>
-
+                <div class="categories">
+                    <span class="category">UI Design</span>
+                    <span class="category">UX Design</span>
+                    <span class="category">Informationsarchitektur</span>
+                </div>
+                <g-image class="project__header" src="../../uploads/Accou_2.png"></g-image>
             </div>
+            <div class="project__content">
 
+                <p>
+                    Im Jahr 2017 hatte eine Person im Durchschnitt 7,6 Online Accounts. 53% der Facebook User sind über
+                    50 Jahre alt. Was geschieht mit diesen Accounts falls Ihr Besitzer einmal verstirbt?
+
+                    Accou hat sich zum Ziel gemacht dieses Problem zu lösen.
+
+                    Wie Funktioniert das?
+                    Alle Account informationen werden in der Accou App eingetragen so sind alle Accounts an einem Ort
+                    zusammen und in Kategorien aufgeteilt.
+
+                    Nun können Sie aussuchen ob im Notfall ihre Accountrechte an eine Person ihres vertrauen gehen, die
+                    Person ihres Vertrauen bekommt eine Anfrage in welcher Sie die damit verbundene Verantwortung
+                    akzeptieren muss. Nachdem die Person die Anfrage akzeptiert hat startet Accou eine Verifikation.
+
+                    Falls sie niemandem Ihre Accountrechte anvertrauen möchten, kann eine selbstständige Löschung nach
+                    einer gewissen Inaktivität eingerichtet werden.
+
+                    Sind diese Einstellungen gemacht können Sie sicher sein dass sich um von Ihnen hinterlassenen Daten
+                    gekümmert wird.
+                </p>
+
+                <div class="project__image-small">
+                <g-image class="" src="../../uploads/Account_Stats.png"></g-image>
+                </div>
+            </div>
         </div>
     </Layout>
 </template>
@@ -76,6 +71,7 @@
 
 <script>
     import sal from 'sal.js';
+    import {gsap} from "gsap";
 
     export default {
         props: {},
@@ -88,6 +84,9 @@
             }
         },
         mounted() {
+            const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
+            tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
+
             this.$nextTick(() => sal());
         }
     }
@@ -97,7 +96,6 @@
 
     body {
         overflow-x: hidden;
-        background-color: #073655;
     }
 
     .project {
@@ -111,10 +109,62 @@
         top: 1rem;
         z-index: -10;
         position: absolute;
-        background-image: url("../../uploads/zts_icon_pattern.svg");
+        background-image: url("../../uploads/Accou_Patttern.svg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .project__header {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-content: baseline;
+    }
+
+    .hide {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .hide span {
+        transform: translateY(110%);
+        display: block;
+        vertical-align: top;
+    }
+
+    .project__content {
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 7.5rem;
+        color: #F8F8F8;
+    }
+
+    .project__content p {
+        font-size: 1.25rem;
+        line-height: 160%;
+        color: #F8F8F8;
+    }
+
+    .rect__small {
+        height: 100px;
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .project__image-small {
+        width: 50%;
+        display: flex;
+        margin-left: 50%;
+        margin-top: 7.5rem;
+    }
+
 
     @keyframes fadein {
         0% {

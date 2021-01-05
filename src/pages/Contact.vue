@@ -162,7 +162,7 @@
     }
 
     .hide {
-        background: #ffffff;
+        background:;
         overflow: hidden;
         display: flex;
         flex-wrap: wrap;
@@ -203,7 +203,7 @@
         padding-bottom: 4rem;
         padding-left: 3rem;
         padding-right: 5rem;
-        color: #ffffff;
+        color: ;
         font-size: 3rem;
         font-family: "Suisse Neue";
         text-align: center;
@@ -298,9 +298,10 @@
         border-radius: 1rem;
         overflow: hidden;
         background-image: url("https://matthiasko.ch/assets/static/matthiaskoch.jpg");
-        -webkit-box-shadow: 0px 0px 16px 0px rgba(190, 190, 190, 0.75);
-        box-shadow: 0px 0px 16px 0px rgba(190, 190, 190, 0.75);
-        -moz-box-shadow: 16px 16px 16px 16px rgba(190, 190, 190, 0.75);
+        -webkit-box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.25);
+
     }
 
     .container {

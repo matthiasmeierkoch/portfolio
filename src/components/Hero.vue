@@ -60,7 +60,7 @@
         flex-wrap: wrap;
         justify-content: left;
         align-content: baseline;
-        color: #111111;
+        color: #F8F8F8;
 
     }
 
@@ -76,8 +76,8 @@
     .hero {
         text-align: left;
         max-width: 100%;
-        margin-top: 4rem;
-        margin-bottom: 6rem;
+        margin-top: 7.5rem;
+        margin-bottom: 10.4375rem;
         line-height: 5.75rem;
         font-size: 2.75rem;
     }
@@ -105,7 +105,7 @@
         font-family: "Suisse Neue", serif;
         font-weight: 400;
         font-style: normal;
-        color: #111111;
+        color: #F8F8F8;
     }
 
     .hero-title p,

@@ -36,9 +36,8 @@ body {
   font-family:sofia-pro, sans-serif, -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
   padding: 0;
-  font-size: 18px;
-  background: var(--color-base);
-  color: var(--color-contrast);
+  font-size: 16px;
+  background: #073655;
   transition: background 0.5s ease;
 }
 
@@ -60,6 +59,7 @@ h1 {
 .layout.sticky-header {
   padding: 6rem 0 0 0;
 }
+
 
 .container {
   max-width: 1200px;

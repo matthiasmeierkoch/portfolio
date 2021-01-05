@@ -5,12 +5,13 @@ credits: <a href="https://portfolio.marc-hatt.ch" target="_blank">Marc Hatt</a>,
 title: Accou
 category: UX / UI Design
 thumbnail: "/uploads/Accou.png"
+pattern: "/uploads/Accou_Patttern.svg"
 categories:
 - UX Design
 - UI Design
 - Inhaltsarchitektur
 Projektart: Schulprojekt
-project_bg_color: ''
+project_bg_color: '#073655'
 project_fg_color: ''
 
 ---
