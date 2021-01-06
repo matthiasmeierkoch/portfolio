@@ -3,122 +3,85 @@
         <div class="container">
             <div class="contact-header">
                 <h2 class="hide">
-                    <span class="text">Als&nbsp;</span>
+                    <span class="text">I&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">Interaction&nbsp;</span>
+                    <span class="text">create&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">Designer&nbsp;</span>
+                    <span class="text">meaningful&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">gestalte&nbsp;</span>
+                    <span class="text">digital&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">ich&nbsp;</span>
+                    <span class="text">products&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">digitale&nbsp;</span>
+                    <span class="text">aiming&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">Produkte&nbsp;</span>
+                    <span class="text">for&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">mit&nbsp;</span>
+                    <span class="text">change.&nbsp;</span>
                 </h2>
-                <h2 class="hide">
-                    <span class="text">Menschen&nbsp;</span>
-                </h2>
-                <h2 class="hide">
-                    <span class="text">im&nbsp;</span>
-                </h2>
-                <h2 class="hide">
-                    <span class="text">Fokus.&nbsp;</span>
-                </h2>
+
             </div>
 
-            <div>
-                <h2>Über mich</h2>
-                <div class="flex-box">
-                    <div>
-                        <h3>...als Designer</h3>
-                        <p>
-                            Mein Name ist Matthias Koch. Ich lebe und arbeite in Zürich als User Experience und User
-                            Interface Designer.
-                        </p>
-                        <p>
-                            Nach einer Berufslehre als Fotofachmann habe ich eine Weiterbildung zum
-                            Kommunikationsdesigner mit Vertiefung Interaction Design im Sommer 2020 abgeschlossen.
-                            Gleichzeitig konnte ich Berufserfahrung im Agenturumfeld und auf Kundenseite erlangen.
-                        </p>
-                        <p>
-                            In meinem Alltag beschäftige ich mich mit dem Zusammenhang von visueller Gestaltung,
-                            Psychologie und Technik. Dabei setzte ich von Anfang an den Menschen in den Fokus.
-                        </p>
-                        <p>
-                            Themen die mich besonders interessieren sind Daten Visualisierungen, Markenführung
-                            (Branding) und Werbung.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3>...als Person</h3>
-                        <p>
-                            Auch in meiner Freizeit befasse ich mich intensiv mit Design, Kunst und Ästhetik.
-                            Deshalb verbringe ich regnerische Sonntage am liebsten in Museen.
-                        </p>
-                        <p>
-                            An schönen Tagen bin ich
-                            am liebsten von Früh bis Spät unterwegs. Im Sommer am liebsten in der Nähe vom Wasser und
-                            im Winter am liebsten in den Bergen am Skifahren.
-                        </p>
-                        <p>
-                            Den Ausgleich zu meinem Alltag finde ich beim Sport, der schon immer eine wichtige Rolle in
-                            meinem Leben spielte, oder auf Reisen.
-                        </p>
-                        <p>
-                            Meinen Ferien verbinde ich am liebsten damit neue Kulturen zu entdecken, Surfen zu gehen und
-                            diesen Tätigkeiten zu Fotografieren. Einige meiner Bilder veröffentliche ich auf <a
-                                href=https://unsplash.com/@matthiasmeierkoch
-                                target="_blank">Unsplash</a>.
-                        </p>
-                    </div>
+            <div class="flex-box profile">
+                <div>
+                    <g-image class="profile__image" src="../../uploads/portrait.png"></g-image>
                 </div>
+
+                    <div class="about__me">
+                         <h2 class="profile__name">Matthias Koch</h2>
+                         <p class="about__label">Interaction designer & Bug-Creator</p>
+                        <div>
+                            <a class="contact__links" href="mailto:hello@matthiasko.ch?subject=Hallo Matthias">Mail</a>
+                            <a class="contact__links" href="https://www.linkedin.com/in/matthias-koch-3588ba119/" target="_blank">LinkedIn</a>
+                            <a class="contact__links" href="https://github.com/matthiasmeierkoch/" target="_blank">Github</a>
+                            <a class="contact__links" href="https://twitter.com/matthiasmkoch" target="_blank">Twitter</a>
+                        </div>
+                        <p class="about__bio">
+                            I like to solve problems with creativity wether I do this in my job, hobbies or my everyday life. I’m very curios and always up to try out new things, this reflects in my list of hobbies and interests such as bouldering, running, calistehnics, swimming, cycling, skiing and surfing to name just a few.
+                       <br>
+                       <br>
+                            In design I aim for simplicity, I’m fascinated by smart designs that do less but better for just the right customers. I’m interested in information visualizations and clever built design systems that scale. 
+                        </p>
+                        <br>
+                        <a class="contact__links" href="/matthias_koch_resume.pdf" target="_blank">Resumé</a>
+                    </div>
             </div>
 
             <div class="resume">
-                <h3 data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                    data-sal-easing="ease-out-expo">
-                    <g-link href="/matthias_koch_resume.pdf" target="_blank">Résumé</g-link>
-                </h3>
+            <div class="footer__cta">
+                <h2 class="hide">
+                    <span class="text">Let’s&nbsp;</span>
+                </h2>
+                <h2 class="hide">
+                    <span class="text">bring&nbsp;</span>
+                </h2>
+                <h2 class="hide">
+                    <span class="text">your&nbsp;</span>
+                </h2>
             </div>
-
-
-            <h2 class="contact__content" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                data-sal-easing="ease-out-expo">Möchtest du dich mit mir in Kontakt setzten?</h2>
-            <div class="flex-box">
-                <div class="contact__links">
-                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><b>Mail:</b> hello(at)matthiasko.ch</p>
-                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://www.linkedin.com/in/matthias-koch-3588ba119/"
-                                                          target="_blank"><b>LinkedIn</b></a></p>
-                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://github.com/matthiasmeierkoch/"
-                                                          target="_blank"><b>GitHub</b></a></p>
-                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://twitter.com/matthiasmkoch" target="_blank"><b>Twitter</b></a>
-                    </p>
-                    <p data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                       data-sal-easing="ease-out-expo"><a href="https://instagram.com/matthiasmeierkoch"
-                                                          target="_blank"><b>Instagram</b></a>
-                    </p>
+            <div class="footer__cta">
+                <h2 class="hide">
+                    <span class="text">ideas&nbsp;</span>
+                </h2>
+                <h2 class="hide">
+                    <span class="text">to&nbsp;</span>
+                </h2>
+                <h2 class="hide">
+                    <span class="text">life&nbsp;</span>
+                </h2>
+            </div>
+            <div class="footer__cta">
+                 <div class="hide">               
+                    <a class="text cta__mail" href="mailto:hello@matthiasko.ch?subject=Hallo Matthias" target="_blank">hello@matthiasko.ch</a>
                 </div>
-
-                <div class="contact__img" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
-                     data-sal-easing="ease-out-expo">
-                    <g-image src="../../uploads/matthiaskoch.jpg"></g-image>
-                </div>
+             </div>
             </div>
         </div>
     </Layout>
@@ -145,15 +108,17 @@
 
 <style scoped>
     .contact-header {
-        padding: 2rem 0 4rem 0;
+        padding: 0 0 4rem 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: left;
+        margin-top: 4rem;
+        margin-bottom: 5rem;
     }
 
     .contact-title {
-        font-size: 4rem;
-        margin: 0 0 4rem 0;
+        font-size: 2.75rem;
+        margin: 0;
         padding: 0;
     }
 
@@ -162,7 +127,6 @@
     }
 
     .hide {
-        background: #ffffff;
         overflow: hidden;
         display: flex;
         flex-wrap: wrap;
@@ -192,24 +156,53 @@
     .flex-box > div {
         display: flex;
         flex-direction: column;
-        align-items: baseline;
+        align-items: space-around;
         margin-bottom: 3rem;
         max-width: 50%;
     }
 
     .resume {
-        margin-top: 2rem;
+        margin-top: 3rem;
         padding-top: 4rem;
         padding-bottom: 4rem;
         padding-left: 3rem;
         padding-right: 5rem;
-        color: #ffffff;
         font-size: 3rem;
-        font-family: "Suisse Neue";
         text-align: center;
-        overflow: hidden;
-        background-image: url("../../uploads/Cover.png");
+        background-image: url("../../uploads/blurr.png");
         background-size: cover;
+    }
+
+    .profile{
+        margin-top: 0;
+    }
+
+    .profile__name{
+        margin-top: 0rem;
+        font-size: 3rem;
+    }
+
+    .profile__image{
+        overflow: hidden;
+    }
+
+    .about__me {
+        padding-left: 2rem; 
+    }
+
+    .about__label{
+        margin-top: -2rem;
+        margin-bottom: 4rem;
+    }
+
+    .about__bio{
+        margin-top: 5rem;
+    }
+
+    .contact__links{
+        margin-right: 2.25rem;
+        margin-bottom: 5rem;
+        font-style: italic;
     }
 
     .resume a {
@@ -252,31 +245,8 @@
         height: 140px;
     }
 
-    .button {
-        color: var(--color-base);
-        background: var(--color-contrast);
-        outline: none;
-        border: 0;
-        font-size: 0.8rem;
-        padding: 0.8rem 1.6rem;
-        border-radius: 0.3rem;
-        margin-top: 2rem;
-        cursor: pointer;
-        transition: opacity 0.25s ease;
-        letter-spacing: 0.035em;
-    }
-
-    .button:hover {
-        opacity: 0.6;
-    }
-
-    .button:focus {
-        border: 1px solid var(--color-base-1);
-    }
-
     .contact-header {
-        margin: auto;
-        font-size: 1.75rem;
+        font-size: 2.75rem;
     }
 
     h1 {
@@ -284,23 +254,10 @@
     }
 
     p {
-        max-width: 90%;
         margin: auto;
         margin-top: 1.5rem;
         margin-left: 0;
         hyphens: auto;
-    }
-
-    .contact__img {
-        max-width: 40%;
-        max-height: 40%;
-        display: grid;
-        border-radius: 1rem;
-        overflow: hidden;
-        background-image: url("https://matthiasko.ch/assets/static/matthiaskoch.jpg");
-        -webkit-box-shadow: 0px 0px 16px 0px rgba(190, 190, 190, 0.75);
-        box-shadow: 0px 0px 16px 0px rgba(190, 190, 190, 0.75);
-        -moz-box-shadow: 16px 16px 16px 16px rgba(190, 190, 190, 0.75);
     }
 
     .container {
@@ -317,10 +274,27 @@
         max-width: 68ch;
     }
 
+    .footer__cta{
+        padding: 2rem 0 -0.5rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 2rem;
+    }
+
+    .cta__mail{
+        font-size: 1.325rem;
+        text-align: right;
+        font-style: italic;
+        align-content: flex-end;
+        margin-top: 1rem;
+        margin-left: 8rem
+    }
+
     @media (max-width: 900px) {
         .contact__img {
             margin-left: 10%;
-            max-width: 80%;
+            max-width: 70%;
             margin-top: 4rem;
         }
 
@@ -344,17 +318,19 @@
         .contact-header {
             margin: auto;
             font-min-size: 1rem;
-            font-size: 2vw;
+            font-size: 4vw;
         }
 
-        h2 {
-            font-size: calc(18px + 1.5vw);
-        }
+
 
         .resume {
             font-size: 2rem;
             text-align: center;
             padding-right: 2rem;
+        }
+
+        .about__me {
+            padding-left: 0; 
         }
 
     }
@@ -363,17 +339,19 @@
     @media (max-width: 520px) {
         .contact__img {
             margin-left: 10%;
-            max-width: 80%;
+            max-width: 20%;
             margin-top: 4rem;
         }
 
         .contact-title {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
 
         .flex-box {
             display: block;
             align-items: baseline;
+            max-width: 100%;
+            margin: 0 auto;
 
         }
 
@@ -393,6 +371,29 @@
             text-align: center;
             padding-right: 2rem;
         }
+
+        .contact__links{
+            margin-right: 1rem;
+        }
+
+        .profile__name{
+        font-size: 1.75rem;
+        margin-bottom: 2rem;
+        }
+
+        .cta__mail{
+        font-size: 1.325rem;
+        text-align: center;
+        font-style: italic;
+        align-content: flex-start;
+        margin-top: 1rem;
+        margin-left: 0;
+        }
+        
+        .about__me {
+        padding-left: 0; 
+    }
+    
     }
 </style>
 
