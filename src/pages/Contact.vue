@@ -79,7 +79,8 @@
             </div>
             <div class="footer__cta">
                  <div class="hide">               
-                    <a class="text cta__mail" href="mailto:hello@matthiasko.ch?subject=Hallo Matthias" target="_blank">hello@matthiasko.ch</a>
+                    <a data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000"
+                    data-sal-easing="ease-out-expo" class="text cta__mail" href="mailto:hello@matthiasko.ch?subject=Hallo Matthias" target="_blank">hello@matthiasko.ch</a>
                 </div>
              </div>
             </div>
