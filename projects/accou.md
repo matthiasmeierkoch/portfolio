@@ -14,6 +14,7 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
+
 ![](/uploads/Accou_Cover.png)
 
 Wie viele Online-Accounts hast du? Wenn du dir einen kurzen Moment Zeit nimmst um darüber nachzudenken merkst du bestimmt schnell dass es mehr Accounts sind als du zu beginn gedacht hast. Ein neuer Account ist schnell gemacht, doch was passiert mit all den Accounts im Falle eines Todes, wenn der Eigentümer seinen Account nicht mehr selber löschen kann?
