@@ -53,4 +53,5 @@ Im Design wagten wir uns an den Design-Trend des Jahr 2020. «[Neumorphism](http
 ![](/uploads/Accou_Designs.png)
 
 ## Prototyp:
+
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ZEG5zI7qYqj69KRDQ6Qo1%2FAfterlife%3Fnode-id%3D159%253A3%26viewport%3D333%252C311%252C0.10193023830652237%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
