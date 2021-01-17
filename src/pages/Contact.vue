@@ -94,15 +94,12 @@
 
 
     export default {
-        mounted() {
-            this.$nextTick(() => sal({
-                threshold: 0.25,
-            }));
-        },
-        methods() {
+                mounted() {
+            this.$nextTick(() => sal());
+
             const tl = gsap.timeline({defaults: {ease: 'power1.out'}});
-            tl.to('.text', {y: '0%', duration: .5, stagger: 0.15});
-        },
+            tl.to('.text', {y: '0%', duration: .7, stagger: 0.15});
+        }
     }
 
 </script>
@@ -131,7 +128,6 @@
         overflow: hidden;
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
         align-items: baseline;
         margin-top: 0;
         margin-bottom: 0;
@@ -140,7 +136,6 @@
     .hide span {
         transform: translateY(110%);
         display: block;
-        vertical-align: top;
     }
 
     hr {
@@ -259,9 +254,6 @@
         margin-top: 1.5rem;
         margin-left: 0;
         hyphens: auto;
-    }
-
-    .container {
     }
 
     .contact__content {
@@ -394,7 +386,7 @@
         .about__me {
         padding-left: 0; 
     }
-    
-    }
+
+}
 </style>
 
