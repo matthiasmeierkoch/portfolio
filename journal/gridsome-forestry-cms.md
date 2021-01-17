@@ -20,5 +20,3 @@ Forestry also comes with instant previews, for you to preview your content befor
 When you save content in **Forestry**, it's commited back to your Git repository. If you link your repository to a service like **Netlify** or **Next**, on every push, your site will be deployed over to a CDN network.
 
 Enjoy the best development and user experience! 🚀
-
-![](/uploads/ian-dooley-281897-unsplash.jpg)
