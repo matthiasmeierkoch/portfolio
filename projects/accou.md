@@ -14,62 +14,42 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-![](/uploads/Accou_2.png)
+![](/uploads/Accou_Cover.png)
 
-## Ausgangslage:
-Im Jahr 2017 hatte eine Person im Durchschnitt 7,6 Online Accounts. 53% der Facebook User sind über 50 Jahre alt. Was geschieht mit diesen Accounts falls Ihr Besitzer einmal verstirbt?
+Wie viele Online-Accounts hast du? Wenn du dir einen kurzen Moment Zeit nimmst um darüber nachzudenken merkst du bestimmt schnell dass es mehr Accounts sind als du zu beginn gedacht hast. Ein neuer Account ist schnell gemacht, doch was passiert mit all den Accounts im Falle eines Todes, wenn der Eigentümer seinen Account nicht mehr selber löschen kann?
 
-Accou hat sich zum Ziel gemacht dieses Problem zu lösen.
+Mit diesen Fragen haben wir uns bei «Accou» beschäftigt und dazu ein Verwaltungstool für Online-Accounts konzipiert und gestaltet.
 
-Wie Funktioniert das?
-Alle Account informationen werden in der Accou App eingetragen so sind alle Accounts an einem Ort zusammen und in Kategorien aufgeteilt.
+## Ideation:
 
-Nun können Sie aussuchen ob im Notfall ihre Accountrechte an eine Person ihres vertrauen gehen, die Person ihres Vertrauen bekommt eine Anfrage in welcher Sie die damit verbundene Verantwortung akzeptieren muss. Nachdem die Person die Anfrage akzeptiert hat startet Accou eine Verifikation. 
+Zu beginn hatten wir noch viele verschiende Ideen in welche Richtung unser Projekt gehen könnte. Mit einem Brainwriting haben wir Ideen gesammelt und über den Fokus unserer Applikation disskutiert. Mit der Crazy-8 Methode sind bereits erste Wireframe Skizzen entstanden welche zur Diskussion anregten.
 
-Falls sie niemandem Ihre Accountrechte anvertrauen möchten, kann eine selbstständige Löschung nach einer gewissen Inaktivität eingerichtet werden.
+![](/uploads/Accou_Ideation.png)
 
-Sind diese Einstellungen gemacht können Sie sicher sein dass sich um von Ihnen hinterlassenen Daten gekümmert wird.
+## Research:
 
-## Vorgehen:
-* Research and Brainstorming
-* Low prototype and testing
-* Neumorphism and designsystems
-* Hifi Prototype
-* Learnings
+Zu beginn des Projektes haben wir nach bestehenden Lösung für dieses Problem gesucht. Dabei sind wir hauptsächlich nur auf herkömmliche Testamente gestossen. Einzig bei Google fanden wir die Option einer «Selbstlöschung» nach einer bestimmten Zeit.
 
-## Research und Brainstorming:
-Auf der Suche ob bereits ähnliche Lösungen existieren haben wir hauptsächlich Anbieter von herkömmlichen Testamenten gefunden. Wir möchten uns klar von nicht digitalen Vermögenswerten abgrenzen.
+## Wireframes:
 
-Crazy 8 & Brainwriting für die ersten Ideenfindungen:
-![](/uploads/Crazy8.png)
-Die ersten Wireframes entstehen:
-![](/uploads/Wireframe1.png)
-![](/uploads/Wireframe2.png)
+Wir skizzierten die ersten Wireframes auf Papier dabei konnten wir gemeinsam in der Gruppe über das Konzept diskutieren und schnell und einfach änderungen machen. Als die Wireframes auf dem Papier waren, haben wir diese mit [Figma](https://figma.com) zu einem Digitalen Prototypen gemacht.
 
-## Der Wireframe Prototyp wird getestet:
-![](/uploads/Wireframe_Testing.png)
+![](/uploads/Accou_Wireframes.png)
 
-Wir haben 5 verschiedene Testpersonen zu unserem Prototypen befragt und dabei haben wir einige Schwachstellen in unserem Konzept gefunden.
-Die Schwachstellen haben wir dann Festgehalten, beschrieben und nach Wichtigkeit priorisiert. 
+## Testings:
 
-![](/uploads/Testing_Findings2.png)
+In der Cafeteria unserer Schule sprachen wir Student*innen an welche in unserem Wireframe-Prototypen eine Aufgabe lösen sollten. Dabei beobachteten wir jede Bewegung und machten uns Notizen dazu. Dabei haben wir diverse Schwachstellen im Konzept sowie Unklarheiten gefunden. Nachdem Usability-Tesiting haben wir die «Findings» Priorisiert und behoben.
 
-Nach dem wir die Schwachstellen beseitigt haben testeten wir unsere Inhaltsarchitektur mit einem Cardsorting:
+Danach ging es im Testing mit einem Cardsorting Workshop weiter, in welchem wir unsere angepasste Navigation Testen wollten. Dazu haben wir die wichtigsten Begriffe unserer App auf Post-it's geschrieben. Die Post-it's haben wir dann von Test Kandidat*innen nach Zugehörigkeit sortieren lassen. Der grösste Teil unserer Hierarchie wurde von den Testenden reproduziert. Das war ein Erfolg.
 
-![](/uploads/Cardsorting1.jpg)
+![](/uploads/Accou_Cardsorting.png)
 
-Unsere Testkandidaten haben nahezu 100% die Selbe Inhaltsarchitektur angelegt die wir angemacht haben, diese scheint zu Funktionieren.
-
-![](/uploads/Cardsorting2.jpg)
 
 ## Design:
-Für das Design haben wir uns entschieden den Designtrend des Jahres 2020 in der Realität zu testen, das ist: [«Neumorphism»](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)
 
-![](/uploads/Accou_Design.png)
+Im Design wagten wir uns an den Design-Trend des Jahr 2020. «[Neumorphism](https://uxdesign.cc/neumorphism-in-user-interfaces-b47cef3bf3a6)» bezeichnet eine neue Version von «Skeuomorphismus» in welchem man Analoges verhalten und Analoge «Interfaces» ins Digitale übersetzt. Dabei wurden wir beim erstellen unserers Design-System besonders mit der Herausforderung von Tiefe und übereinanderliegenden Elementen konfrontiert. Wie wir das gelöst haben ist in unserem Prototyp zu sehen:
 
-## Design System:
-
-![](/uploads/Accou_Design_System.png)
+![](/uploads/Accou_Designs.png)
 
 ## Prototyp:
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ZEG5zI7qYqj69KRDQ6Qo1%2FAfterlife%3Fnode-id%3D159%253A3%26viewport%3D333%252C311%252C0.10193023830652237%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
