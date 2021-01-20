@@ -13,7 +13,7 @@ project_fg_color: ''
 
 ---
 
-![](/uploads/ZTS_Startseite.png)
+![](/uploads/ZTS_Prozess.jpg)
 
 Der Zürcher Tierschutz hat Agenturen eingeladen um ihre Ideen für den Relaunch der Webseite «Zürcher Tierschutz» zu Präsentieren.
 Mit dabei war die <a href="https://internezzo.ch" target="_blank">internezzo</a>. Mein Auftrag als Interaction Designer bei der internezzo war es für die Ausschreibung ein Design zu entwerfen welches den Zürcher Tierschutz repräsentiert.
@@ -23,6 +23,7 @@ Mir war klar, das Design muss emotional werden und den Betrachtenden muss eine G
 
 Ich begann mit dem zeichnen von Wireframes auf dem Papier um eine Priorisierung der Inhalte zu gestalten.
 
+![](/uploads/ZTS_Startseite.png)
 Hauptfunktionen:
 Die Webseite beginnt mit grossflächigen und emotionalen Bildern von Tieren diese dienen als Einstig zu den Artikel des Zürcher Tierschutz. Anhand dieser bekommen die Benutzer einen Einblick hinter die Kulissen des Zürcher Tierschutz.
 Die Benutzer können mit dem «Haustier-Finder» nach den eigenen Präferenzen filtern um das passende Angebot des. Zurcher Tierschutz anzusehen.
