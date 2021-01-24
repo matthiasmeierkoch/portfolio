@@ -78,7 +78,7 @@
                 </h2>
             </div>
             <div class="footer__cta">
-                 <div class="">               
+                 <div class="cta__mail">               
                     <a href="mailto:hello@matthiasko.ch?subject=Hallo Matthias" target="_blank">hello@matthiasko.ch</a>
                 </div>
              </div>
