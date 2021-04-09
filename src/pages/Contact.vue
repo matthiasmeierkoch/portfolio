@@ -2,30 +2,29 @@
     <Layout>
         <div class="container">
             <div class="contact-header">
+            
                 <h2 class="hide">
-                    <span class="text">I&nbsp;</span>
+                    <span class="text">Human&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">create&nbsp;</span>
-                </h2>
-                <h2 class="hide">
-                    <span class="text">meaningful&nbsp;</span>
-                </h2>
-                <h2 class="hide">
-                    <span class="text">digital&nbsp;</span>
+                    <span class="text">centered&nbsp;</span>
                 </h2>
                 <h2 class="hide">
                     <span class="text">products&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">aiming&nbsp;</span>
+                    <span class="text">improve&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">for&nbsp;</span>
+                    <span class="text">other&nbsp;</span>
                 </h2>
                 <h2 class="hide">
-                    <span class="text">change.&nbsp;</span>
+                    <span class="text">people's&nbsp;</span>
                 </h2>
+                <h2 class="hide">
+                    <span class="text">lives&nbsp;</span>
+                </h2>
+
 
             </div>
 

@@ -5,25 +5,31 @@
                 </h1>-->
         <div class="hero-text">
             <h2 class="hide">
-                <span class="text">fascinating&nbsp;</span>
+                <span class="text">Hi&nbsp;</span>
             </h2>
             <h2 class="hide"> 
-                <span class="text">user&nbsp;</span>
+                <span class="text">there&nbsp;👋&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">experiences&nbsp;</span>
+                <span class="text">I'm&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">through&nbsp;</span>
+                <span class="text">an&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">strategy&nbsp;</span>
+                <span class="text">interaction&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">and&nbsp;</span>
+                <span class="text">designer&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">design.</span>
+                <span class="text">based&nbsp;</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text">in&nbsp;</span>
+            </h2>
+            <h2 class="hide">
+                <span class="text">Zürich.</span>
             </h2>
         </div>
 <!--        <div class="hero-bg">
