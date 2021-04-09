@@ -1,11 +1,11 @@
 ---
 thumbnail: "/uploads/fambe_cover.jpg"
 title: Familienportal des Kanton Bern Webseite
-date: 2019-05-16
+date: 2019-02-10
 categories:
 - UX / UI Design
 - Informationsarchitektur
-credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>
+credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>, <a href="http://www.susannbuchholz.com/" target="_blank">Susann Buchholz</a>
 Projektart: Kundenprojekt
 project_bg_color: ''
 project_fg_color: ''
