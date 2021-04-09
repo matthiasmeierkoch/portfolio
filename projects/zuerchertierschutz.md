@@ -11,7 +11,6 @@ project_bg_color: ''
 project_fg_color: ''
 
 ---
-
 ![](/uploads/ZTS_Prozess.jpg)
 
 Der Zürcher Tierschutz hat Agenturen eingeladen um ihre Ideen für den Relaunch der Webseite «Zürcher Tierschutz» zu Präsentieren.

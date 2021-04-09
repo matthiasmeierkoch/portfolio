@@ -12,7 +12,6 @@ project_fg_color: ""
 ---
 ![](/uploads/Bocado_2.png)
 
-
 ## Aufgabe
 In der Schule hatten wir das Modul «Human Centered Design». Über 6 Wochen haben wir in einer Gruppenarbeit ein Produkt entwickelt und dabei verschiedene Research und Testing Methoden angewendet. Unser Endprodukt war das Konzept und die Gestaltung einer Applikation zum Lernen und Reflektieren von Schulmaterial. Zudem hielten wir die Entstehung des Produkts und Erkenntnisse aus dem Prozess in einer Dokumentation fest.
 
@@ -25,7 +24,6 @@ Im nächsten Schritt unseres Research-Prozess haben wir zwei unserer Kommilitone
 
 ### Value Proposition Canvas
 Zusätzlich zu den Interviews haben wir von unseren eigenen Lernprozess die pains, gains & jobs auf einem Value Proposition Canvas festgehalten. Die Value proposition Canvas haben uns als Grundlage für die Erstellung unserer Persona gedient, darf ich Vorstellen? Hugo Hybrid.
-
 
 ### Challange
 Wir möchten das Problem lösen dass viele Studierende zuspät beginnen zu lernen, dies soll durch eine «häppchenweise» Reflektion des Modul gelingen. Daraus haben wir unsere Challange formuliert:

@@ -5,8 +5,8 @@ date: 2019-05-01
 categories:
 - UX / UI Design
 - Informationsarchitektur
-Projektart: Schulprojekt
 credits: <a href="https://pascaleva.ch" target="_blank">Pascale Anderegg</a>, <a href="https://kilchhofer.ch" target="_blank">Severin Kilchhofer</a>
+Projektart: Schulprojekt
 project_bg_color: ""
 project_fg_color: ""
 
