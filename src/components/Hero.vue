@@ -26,7 +26,7 @@
                 <span class="text">based&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">in</span>
+                <span class="text">in&nbsp;</span>
             </h2>
             <h2 class="hide">
                 <span class="text">Zürich.</span>
