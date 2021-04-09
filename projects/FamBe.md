@@ -2,7 +2,7 @@
 date: 2020-01-05
 year: 2020-01-05
 credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>, <a href="http://susannbuchholz.com/" target="_blank">Susann Buchholz</a>
-title: Fambe
+title: Familienportal des Kanton Bern Webseite
 category: UX / UI Design
 thumbnail: "/uploads/fambe_cover.jpg"
 categories:
