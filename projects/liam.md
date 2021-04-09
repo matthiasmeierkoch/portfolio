@@ -1,11 +1,10 @@
 ---
 thumbnail: "/uploads/Liam.png"
-title: Liam
-date: 2019-02-06
+title: Liam – Die Selbstreflexion App
+date: 2019-05-01
 categories:
-- UI Design
-- UX Design
-- Didaktisches Design
+- UX / UI Design
+- Informationsarchitektur
 Projektart: Schulprojekt
 credits: <a href="https://pascaleva.ch" target="_blank">Pascale Anderegg</a>, <a href="https://kilchhofer.ch" target="_blank">Severin Kilchhofer</a>
 project_bg_color: ""

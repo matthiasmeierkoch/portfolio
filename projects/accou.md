@@ -2,13 +2,12 @@
 date: 2020-01-05
 year: 2020-01-05
 credits: <a href="https://portfolio.marc-hatt.ch" target="_blank">Marc Hatt</a>, <a href="http://nilsmaeder.ch/" target="_blank">Nils Mäder</a>, <a href="http://larsmaeder.ch/" target="_blank">Lars Mäder</a>
-title: Accou
+title: Accou – Acountverwaltungs App
 category: UX / UI Design
 thumbnail: "/uploads/Accou.png"
 categories:
-- UX Design
-- UI Design
-- Inhaltsarchitektur
+- UX / UI Design
+- Informationsarchitektur
 Projektart: Schulprojekt
 project_bg_color: ''
 project_fg_color: ''

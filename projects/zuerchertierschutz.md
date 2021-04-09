@@ -1,11 +1,10 @@
 ---
 thumbnail: "/uploads/ZürcherTierschutz.jpg"
-title: Zürcher Tierschutz
+title: Zürcher Tierschutz Webseite
 date: 2019-05-16
 categories:
-- UX Design
-- UI Design
-- Kundenprojekt
+- UX / UI Design
+- Informationsarchitektur
 credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>
 Projektart: Kundenprojekt
 project_bg_color: ''

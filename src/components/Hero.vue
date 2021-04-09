@@ -26,7 +26,7 @@
                 <span class="text">based&nbsp;</span>
             </h2>
             <h2 class="hide">
-                <span class="text">in&nbsp;</span>
+                <span class="text">in</span>
             </h2>
             <h2 class="hide">
                 <span class="text">Zürich.</span>
@@ -83,7 +83,6 @@
         text-align: left;
         max-width: 100%;
         margin-top: 4rem;
-        margin-bottom: 6rem;
         line-height: 5.75rem;
         font-size: 2.75rem;
     }
@@ -121,11 +120,14 @@
     }
 
     .hero-subtitle {
-        font-size: 1.15em;
+        font-size: 1.25rem;
         font-weight: 400;
         line-height: 1.68;
         padding: 0;
-        margin: 0;
+        color: #707070;
+        margin-bottom: 2rem;
+        margin-top: 4rem;
+
         opacity: 0.6;
     }
 

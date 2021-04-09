@@ -4,6 +4,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
+    path: "/projects/spital-schwyz/",
+    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
+  },
+  {
     path: "/journal/text-reveal-animation/",
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/JournalPost.vue")
   },
@@ -12,8 +16,16 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
+    path: "/projects/internezzo-blog/",
+    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
+  },
+  {
     path: "/journal/macos-development-environment/",
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/JournalPost.vue")
+  },
+  {
+    path: "/projects/familienportal/",
+    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
     path: "/journal/gridsome-forestry-cms/",

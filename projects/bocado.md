@@ -1,11 +1,9 @@
 ---
 thumbnail: "/uploads/Bocado.png"
-title: Bocado
+title: Bocado – Häppchenweise lernen
 date: 2019-01-04
 categories:
-- UX Design
-- UI Design
-- Human Centered Design
+- UX / UI Design
 credits:  <a href="https://pascaleva.ch" target="_blank">Pascale Anderegg</a>, Nicole Watrinet,  <a href="https://portfolio.marc-hatt.ch" target="_blank">Marc Hatt</a>
 Projektart: Schulprojekt
 project_bg_color: ''
