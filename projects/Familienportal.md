@@ -21,7 +21,6 @@ Dazu erarbeitete ich ein Design welches überzeugte. Der Start in die Seite mach
 ## Datengestüzt:
 
 Anhand einer Auswertung von Google Analytics Daten entstand eine Liste mit Schnellzugriffen auf die 11 meist besuchten Seiten des Familienportal.
-
 ![](/uploads/fambe_Schnellzugriffe.png)
 
 ## Beiträge & Aktuelles:

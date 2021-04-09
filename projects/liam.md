@@ -18,7 +18,6 @@ Liam entstand im Modul «Didaktisches Design» aus der Idee heraus dass man durc
 Durch das angeben deiner Emotionen die du am Tag durchlebt hast und Erinnerungen die du mit eigenen Inhalten anreichern kannst entsteht ein Datenpunkt in deiner autodidaktischen Reise. Nach dem erfassen deines Tages kannst du mittels Datenvisualisierung deiner Gefühle durch deine Erinnerungen Navigieren und so wirst du nie vergessen wieso es dir an einem Tag besonders gut, aber auch mal schlecht ging und durch die Selbstreflexion wirst du jeden Tag von dir selber lernen.
 
 So entstanden die Wireframes:
-
 ![](/uploads/liam_wireframe.png)
 
 und aus den Wireframes entstand das Design.
