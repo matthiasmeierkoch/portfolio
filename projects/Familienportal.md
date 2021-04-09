@@ -1,13 +1,11 @@
 ---
-date: 2020-01-05
-year: 2020-01-05
-credits: <a href="https://internezzo.ch" target="_blank">internezzo</a> & <a href="http://www.susannbuchholz.com/" target="_blank">Susann Buchholz</a>
-title: Familienportal des Kanton Bern Webseite
-category: UX / UI Design (Pitch)
 thumbnail: "/uploads/fambe_cover.jpg"
+title: Familienportal des Kanton Bern Webseite
+date: 2019-05-16
 categories:
 - UX / UI Design
 - Informationsarchitektur
+credits: <a href="https://internezzo.ch" target="_blank">internezzo</a>
 Projektart: Kundenprojekt
 project_bg_color: ''
 project_fg_color: ''
@@ -24,5 +22,4 @@ Anhand einer Auswertung von Google Analytics Daten entstand eine Liste mit Schne
 
 ## Beiträge & Aktuelles:
 Auf die Schnellzugriffe folgen Teaser welche es erlauben Inhalte in den Fokus zu stellen und hervorzuheben. In dem bereich «Aktuelles» werden Meldungen von Events, News und Beiträge veröffentlicht.
-
 ![](/uploads/fambe_News.png)
