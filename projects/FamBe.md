@@ -8,7 +8,7 @@ thumbnail: "/uploads/fambe_cover.jpg"
 categories:
 - UX / UI Design
 - Informationsarchitektur
-Projektart: Schulprojekt
+Projektart: Kundenprojekt
 project_bg_color: ''
 project_fg_color: ''
 
