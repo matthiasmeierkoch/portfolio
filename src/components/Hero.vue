@@ -146,5 +146,9 @@
             line-height: 3rem;
             margin-top: 2.75rem;
         }
+
+        .hero-subtitle{
+            font-size: 1rem;
+        }
     }
 </style>

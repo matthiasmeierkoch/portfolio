@@ -24,7 +24,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
-    path: "/projects/familienportal/",
+    path: "/projects/fam-be/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
