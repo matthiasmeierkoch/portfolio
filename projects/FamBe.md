@@ -27,3 +27,5 @@ Das Familien Portal verfügt über ein seehr breites spekturm an Familienthemen.
 Auf die Schnellzugriffe folgen Teaser welche es den Redaktoren erlaubt Inhalte in den Fokus zu stellen und hervorzuheben. In dem Bereich «Aktuelles» werden Meldungen von Events, News und Beiträge veröffentlicht.
 
 ![](/uploads/fambe_News.png)
+
+<a href="https://www.fambe.sites.be.ch/" target="_blank">Familienportal Bern Webseite</a> 
