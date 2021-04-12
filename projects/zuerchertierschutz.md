@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/ZürcherTierschutz.jpg"
-title: Zürcher Tierschutz Webseite
+title: Zürcher Tierschutz
 date: 2019-05-16
 categories:
 - UX / UI Design

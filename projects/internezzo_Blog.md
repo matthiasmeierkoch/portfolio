@@ -14,11 +14,11 @@ project_fg_color: ''
 ---
 ![](/uploads/Blog_Startseite.png)
 
-## Auftrag:
-Das Backend vom internezzo Blog wurde von Wordpress nach Hubspot verschoben, dies haben wir als Gelegenheit genutzt um das veraltete Design vom Blog zu überarbeiten. Da wir im Jahr 2018 auch unser Corporate Design überarbeitet haben soll nun der Blog dem und der Webseite angepasst werden.
+## Ausgangslage
+Das Backend vom internezzo Blog wurde von Wordpress nach Hubspot verschoben, dies haben wir als Gelegenheit genutzt um das veraltete Design vom Blog zu überarbeiten. Da im Jahr 2018 auch das Corporate Design von internezzo überarbeitet wurde soll nun auch der Blog dem neuen Erscheinungsbild angepasst werden. Wichtig war dass alle Blogbeiträge der Wordpress-Seite vollständig (automatisiert) übernommen werden konnten.
 
-## Lösung:
-Auf der Startseite findet man eine Kachelübersicht der letzten Beiträge, in Seiten gegliedert. Darauf sind die wichtigsten Informationen wie Datum, Autor, Titel, Lead, Tag’s und ein Beitragsbild zu finden.
+## Design
+Auf der Startseite findet man eine Übersicht der letzten Beiträge. Auf den Beiträgen sind die wichtigsten Informationen wie Datum, Autor, Titel, Leadtext, Tag’s und ein Beitragsbild zu finden.
 
 ![](/uploads/Blog_Posts.png)
 

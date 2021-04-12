@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/Bocado.png"
-title: Bocado – Häppchenweise lernen
+title: Bocado – App
 date: 2019-01-04
 categories:
 - UX / UI Design

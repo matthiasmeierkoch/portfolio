@@ -2,7 +2,7 @@
 date: 2019-01-06
 year: 2019-01-06
 credits: <a href="https://internezzo.ch" target="_blank">internezzo ag</a>
-title: Spital Schwyz Webseite
+title: Spital Schwyz
 category: UX / UI Design
 thumbnail: "/uploads/spitalschwyz_cover.png"
 categories:

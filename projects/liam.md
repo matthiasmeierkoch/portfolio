@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/Liam.png"
-title: Liam – Selbstreflexions App
+title: Liam – App
 date: 2019-05-01
 categories:
 - UX / UI Design
