@@ -163,8 +163,12 @@
         padding-right: 5rem;
         font-size: 3rem;
         text-align: center;
+        color: #ffffff;
         background-image: url("../../uploads/blurr.png");
         background-size: cover;
+        background-color: #073655;
+        border-radius: 1rem;
+
     }
 
     .profile{
@@ -312,8 +316,6 @@
             font-size: 4vw;
         }
 
-
-
         .resume {
             font-size: 2rem;
             text-align: center;
@@ -373,7 +375,7 @@
         }
 
         .cta__mail{
-        font-size: 1.325rem;
+        font-size: 18px;
         text-align: center;
         font-style: italic;
         align-content: flex-start;
