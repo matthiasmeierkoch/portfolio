@@ -14,7 +14,11 @@ Insights from Usability Testings, User Interviews, Customer Support Tickets and 
 
 ## Attributes
 
+From our research data we've gathered different attributes of our customer needs, gains, pains and fears. We've then mapped those attributes into the existing segments.
+
 ## Segments
+
+The 5 Segments build the foundation of our personas.
 
 ## Drafts
 
