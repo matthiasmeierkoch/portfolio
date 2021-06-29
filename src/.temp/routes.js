@@ -12,6 +12,10 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/JournalPost.vue")
   },
   {
+    path: "/projects/my-cloud/",
+    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
+  },
+  {
     path: "/projects/liam/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
