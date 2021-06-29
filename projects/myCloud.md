@@ -7,7 +7,7 @@ category: UX / UI Design
 thumbnail: "/uploads/myCloud_Cover.png"
 categories:
   - UX / UI Design
-Projektart: Kundenprojekt
+Projektart: customer project
 project_bg_color: ""
 project_fg_color: ""
 ---

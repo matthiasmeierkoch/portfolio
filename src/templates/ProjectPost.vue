@@ -8,7 +8,7 @@
           <div class="project-info">
             <div class="categories-container">
               <div class="categories">
-                <span class="label">Kategorien</span>
+                <span class="label">Categories</span>
                 <span
                   class="category"
                   v-for="(category, index) in $page.post.categories"
@@ -19,7 +19,7 @@
             </div>
 
             <div class="year-container">
-              <span class="label">Jahr</span>
+              <span class="label">Year</span>
               <div v-html="$page.post.date" />
             </div>
 
@@ -29,7 +29,7 @@
             </div>
 
             <div class="Projektart-container">
-              <span class="label">Projektart</span>
+              <span class="label">Type</span>
               <div v-html="$page.post.Projektart" />
             </div>
           </div>
