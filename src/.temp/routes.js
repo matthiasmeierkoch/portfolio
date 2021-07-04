@@ -4,10 +4,6 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/projects/zuerchertierschutz-de/",
-    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
-  },
-  {
     path: "/projects/spital-schwyz/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
@@ -32,7 +28,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/projects/fam-be/",
+    path: "/projects/fam-be-en/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
@@ -44,7 +40,7 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/projects/accou/",
+    path: "/projects/accou-en/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
