@@ -1,6 +1,10 @@
 export default [
   {
-    path: "/projects/zuerchertierschutz/",
+    path: "/projects/zuerchertierschutz-en/",
+    component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
+  },
+  {
+    path: "/projects/zuerchertierschutz-de/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/taakomah/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
