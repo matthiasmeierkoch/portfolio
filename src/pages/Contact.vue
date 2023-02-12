@@ -347,7 +347,7 @@ p {
 
   .contact-header {
     margin: auto;
-    font-min-size: 1rem;
+    font-size: 1rem;
     font-size: 4vw;
   }
 
