@@ -5,11 +5,9 @@
                 <g-link :to="{ name: 'home' }" class="home-link"><span class="text">Matthias Koch</span></g-link>
             </div>
             <nav class="nav right hide">
-                <g-link class="nav__link" to="/" exact><span class="text">Work</span></g-link>
-<!--
-                 <g-link class="nav__link" to="/journal" exact><span class="text">Blog</span></g-link>
-                <g-link class="nav__link" to="https://lab.matthiasko.ch" exact><span class="text">Lab</span></g-link>
--->
+                <g-link class="nav__link" to="/" exact><span class="text">Projects</span></g-link>
+                 <g-link class="nav__link" to="/journal" exact><span class="text">Writing</span></g-link>
+                <g-link class="nav__link" to="https://lab.matthiasko.ch" target="_blank" exact><span class="text">Lab</span></g-link>
                 <g-link class="nav__link" to="/contact"><span class="text">About</span></g-link>
             </nav>
         </div>

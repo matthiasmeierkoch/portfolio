@@ -32,15 +32,11 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/journal/gridsome-forestry-cms/",
-    component: () => import(/* webpackChunkName: "page--src--templates--journal-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/JournalPost.vue")
-  },
-  {
-    path: "/projects/bocado/",
+    path: "/projects/accou-en/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
-    path: "/projects/accou-en/",
+    path: "/projects/bocado/",
     component: () => import(/* webpackChunkName: "page--src--templates--project-post-vue" */ "/Users/matthiaskoch/Desktop/portfolio/src/templates/ProjectPost.vue")
   },
   {
