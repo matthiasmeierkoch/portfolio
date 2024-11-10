@@ -1,30 +1,28 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
     <Header />
-    <slot/>
+    <slot />
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
-import sal from 'sal.js';
-
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import sal from "sal.js";
 
 export default {
   components: {
     Header,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
-
 <style>
-  @import "../../node_modules/sal.js/dist/sal.css";
+@import "../../node_modules/sal.js/dist/sal.css";
 
-  * {
+* {
   box-sizing: border-box;
 }
 
@@ -33,8 +31,9 @@ body {
   --color-base-1: rgb(243, 243, 243);
   --color-contrast: rgb(0, 0, 0);
   --color-contrast-1: rgb(43, 43, 43);
-  font-family: sofia-pro, sans-serif, -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
+  font-family: sofia-pro, sans-serif, -apple-system, system-ui,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
   padding: 0;
   font-size: 18px;
   background: var(--color-base);
@@ -67,10 +66,9 @@ h1 {
   padding: 0 1rem;
 }
 
-
 @media (min-width: 860px) {
   .container {
-    padding: 0 5vw;
+    padding: 0 3vw;
   }
 }
 

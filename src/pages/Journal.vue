@@ -7,8 +7,6 @@
           <span class="text">Sometimes&nbsp;</span>
           <span class="text">I&nbsp;</span>
           <span class="text">write&nbsp;</span>
-        </h1>
-        <h1 class="hide">
           <span class="text">about&nbsp;</span>
           <span class="text">things&nbsp;</span>
           <span class="text">I&nbsp;</span>
