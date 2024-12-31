@@ -3,7 +3,10 @@
     <div class="container">
       <div class="contact-header">
         <h2 class="hide">
-          <span class="text">Combining&nbsp;</span>
+          <span class="text">I&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">combine&nbsp;</span>
         </h2>
         <h2 class="hide">
           <span class="text">strategy&nbsp;</span>

@@ -9,8 +9,6 @@
           <span class="text">write&nbsp;</span>
           <span class="text">about&nbsp;</span>
           <span class="text">things&nbsp;</span>
-          <span class="text">I&nbsp;</span>
-          <span class="text">did.</span>
         </h1>
       </div>
     </div>
