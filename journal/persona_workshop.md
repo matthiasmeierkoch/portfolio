@@ -1,8 +1,8 @@
 ---
 date: 2020-03-04
-title: Developing and using Personas
+title: Developing and using personas
 author: Matthias Koch
-excerpt: Workshop for developing research based Personas
+excerpt: Workshop for developing research based personas
 ---
 
 All good workshops start with an introduction of why we are doing this workshop to get everyone on board.

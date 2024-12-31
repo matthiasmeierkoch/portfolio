@@ -14,11 +14,13 @@ With that being said, in this post I'm trying to explain how I made the «Text R
 
 ## Set Up
 
-For my website I've used the static site generator [«Gridsome»](https://gridsome.org/) check their documentation to
+For my website I've used the static site generator [«Gridsome»](https://gridsome.org/) check out their documentation to
  learn more about how to install it.
+
+Here's the code I used to create the animation:
  
 
-## html
+### html
 ```html
         <div class="container">
             <div class="left hide">
@@ -27,12 +29,11 @@ For my website I've used the static site generator [«Gridsome»](https://gridso
             <nav class="nav right hide">
                 <g-link class="nav__link" to="/" exact><span class="text">Work</span></g-link>
                  <g-link class="nav__link" to="/journal" exact><span class="text">Blog</span></g-link>
-                <!--<g-link class="nav__link" to="https://lab.matthiasko.ch" exact><span class="text">Lab</span></g-link>-->
                 <g-link class="nav__link" to="/contact"><span class="text">Credo</span></g-link>
             </nav>
         </div>
 ```
- ## css
+ ### css
  ```css
     .hide {
         overflow: hidden;
@@ -44,7 +45,7 @@ For my website I've used the static site generator [«Gridsome»](https://gridso
     }
 ```
 
-## js
+### js
  ```js
    import {gsap} from "gsap"
 

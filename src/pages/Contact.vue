@@ -3,25 +3,31 @@
     <div class="container">
       <div class="contact-header">
         <h2 class="hide">
-          <span class="text">Human&nbsp;</span>
+          <span class="text">I&nbsp;</span>
         </h2>
         <h2 class="hide">
-          <span class="text">centered&nbsp;</span>
+          <span class="text">combine&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">strategy&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">and&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">design&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">to&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">create&nbsp;</span>
+        </h2>
+        <h2 class="hide">
+          <span class="text">digital&nbsp;</span>
         </h2>
         <h2 class="hide">
           <span class="text">products&nbsp;</span>
-        </h2>
-        <h2 class="hide">
-          <span class="text">improve&nbsp;</span>
-        </h2>
-        <h2 class="hide">
-          <span class="text">other&nbsp;</span>
-        </h2>
-        <h2 class="hide">
-          <span class="text">people's&nbsp;</span>
-        </h2>
-        <h2 class="hide">
-          <span class="text">lives&nbsp;</span>
         </h2>
       </div>
 
@@ -344,7 +350,7 @@ p {
 
   .contact-header {
     margin: auto;
-    font-min-size: 1rem;
+    font-size: 1rem;
     font-size: 4vw;
   }
 

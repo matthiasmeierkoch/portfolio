@@ -13,6 +13,8 @@
     "@gridsome/transformer-remark": "^0.4.0",
     "gridsome": "^0.7.11",
     "gsap": "^3.5.1",
-    "sal.js": "^0.7.6"
+    "sal.js": "^0.7.6",
+    "sharp": "^0.33.5",
+    "tilt.js": "^1.2.1"
   }
 }
